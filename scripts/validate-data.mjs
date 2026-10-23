@@ -5,6 +5,7 @@ const laws = read("../src/data/laws.json");
 const findings = read("../src/data/findings.json");
 const demo = read("../src/data/demo.json");
 const reviewNotes = read("../src/data/review-notes.json");
+const actTexts = read("../src/data/act-texts.json");
 const errors = [];
 const lawIds = new Set();
 const findingIds = new Set();
@@ -52,6 +53,19 @@ if (Array.isArray(reviewNotes)) for (const note of reviewNotes) {
   check(["unresolved", "excluded"].includes(note.disposition), `Review note ${note.id}: invalid disposition`);
 }
 check(demo.published === false && demo.status === "demonstration" && demo.lawId === null, "Demonstration must remain unpublished and unlinked to a law");
+for (const law of laws) {
+  const pages = actTexts[law.id];
+  check(Array.isArray(pages) && pages.length > 0, `Law ${law.id}: extracted English text is required`);
+  if (!Array.isArray(pages)) continue;
+  const linked = new Set();
+  for (const page of pages) {
+    check(Number.isInteger(page.page) && text(page.text), `Law ${law.id}: a text page is incomplete`);
+    check(Array.isArray(page.findingIds) && Array.isArray(page.highlights), `Law ${law.id}: finding links are missing`);
+    for (const id of page.findingIds || []) linked.add(id);
+    for (const span of page.highlights || []) check(Number.isInteger(span.start) && Number.isInteger(span.end) && span.start >= 0 && span.start < span.end && span.end <= page.text.length && findingIds.has(span.findingId), `Law ${law.id} page ${page.page}: invalid highlight`);
+  }
+  for (const finding of findings.filter((item) => item.lawId === law.id)) check(linked.has(finding.id), `Finding ${finding.id}: no matching page in English text`);
+}
 
 if (errors.length) { for (const error of errors) console.error(`• ${error}`); process.exit(1); }
 console.log(`Validated ${laws.length} law(s), ${findings.length} published finding(s), and ${reviewNotes.length} screening note(s); demonstration data remains separate.`);
