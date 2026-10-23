@@ -72,7 +72,7 @@ export function LawReader({ law, laws, findings, reviewNotes, pages }: Props) {
     <div className="border-b border-[#dedfdd] px-4 py-4 sm:px-7">
       <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
         <details className="relative z-10"><summary className="list-none cursor-pointer rounded border border-[#cdd0d0] bg-white px-4 py-2 text-[13px] font-semibold marker:hidden">Change legislation <span aria-hidden="true" className="ml-3">⌄</span></summary><div className="absolute left-0 top-11 min-w-[285px] border border-[#d8dada] bg-white p-2 shadow-lg">{laws.map((item) => <Link key={item.id} href={`/laws/${item.id}/`} className="block rounded px-3 py-2 text-[13px] hover:bg-[#f2f4f5]">{item.number} — {item.title}</Link>)}</div></details>
-        <div className="min-w-0 flex-1"><h1 className="font-serif text-[25px] leading-[1.16] sm:text-[30px]">{law.number} — {law.title}</h1><p className="mt-1 text-[13px] text-[#687075]">{law.edition} · {readableDate(law.enactedOn)} <span className="mx-2 text-[#2b7255]">●</span>{law.coverage.label}</p></div>
+        <div className="min-w-0 flex-1"><h1 className="font-serif text-[20px] leading-[1.2] sm:text-[24px]">{law.number} — {law.title}</h1><p className="mt-1 text-[13px] text-[#687075]">{law.edition} · {readableDate(law.enactedOn)} <span className="mx-2 text-[#2b7255]">●</span>{law.coverage.label}</p></div>
       </div>
     </div>
     <div className="grid min-h-[calc(100vh-150px)] bg-white lg:grid-cols-[55%_45%]">
@@ -90,7 +90,7 @@ export function LawReader({ law, laws, findings, reviewNotes, pages }: Props) {
           {selected ? <>
             <div className="mb-5 flex flex-wrap items-center justify-between gap-3"><button onClick={() => selectFinding(null)} className="text-[13px] text-[#2d789f] hover:underline">← All differences</button><div className="flex items-center gap-3 text-[12px] text-[#677075]"><button disabled={selectedIndex <= 0} onClick={() => selectFinding(filtered[selectedIndex - 1]?.id)} className="disabled:opacity-35">← Previous</button><button disabled={selectedIndex < 0 || selectedIndex >= filtered.length - 1} onClick={() => selectFinding(filtered[selectedIndex + 1]?.id)} className="disabled:opacity-35">Next →</button></div></div>
             <p className="text-[12px] text-[#70777a]">{selected.section} · <span className="capitalize">{selected.impact}</span> potential impact · {selected.status.replaceAll("-", " ")}</p>
-            <h2 className="mb-4 mt-2 font-serif text-[25px] leading-tight">{selected.title}</h2>
+            <h2 className="mb-4 mt-2 font-serif text-[20px] leading-tight">{selected.title}</h2>
             <PlainPassage label="Original Spanish" parts={selected.spanish} lang="es" />
             <PlainPassage label="Official English" parts={selected.officialEnglish} lang="en" />
             <PlainPassage label="Independent English translation of Spanish" parts={selected.independentEnglish} lang="en" />
