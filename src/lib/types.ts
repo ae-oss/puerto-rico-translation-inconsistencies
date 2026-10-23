@@ -62,3 +62,10 @@ export type ReviewNote = {
   disposition: "unresolved" | "excluded";
   summary: string;
 };
+
+export type ActTextPage = {
+  page: number;
+  text: string;
+  findingIds: string[];
+  highlights: { start: number; end: number; findingId: string }[];
+};
