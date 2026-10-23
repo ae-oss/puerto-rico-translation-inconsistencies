@@ -1,0 +1,68 @@
+[
+  {
+    "id": "act-4-2017",
+    "number": "Act No. 4 of 2017",
+    "title": "Labor Transformation and Flexibility Act",
+    "spanishTitle": "Ley de Transformación y Flexibilidad Laboral",
+    "description": "A wide-ranging employment law addressing contracts, working time, leave, dismissal, and related labor rules.",
+    "enactedOn": "2017-01-26",
+    "edition": "Original 2017 enactment",
+    "status": "in-review",
+    "coverage": {
+      "label": "Initial Act 4 comparison under review",
+      "reviewedSections": 10,
+      "totalSections": null
+    },
+    "sources": [
+      {
+        "label": "Legislative record",
+        "language": "es",
+        "url": "https://sutra.oslpr.org/prontuarios/leyes-aprobadas/122925",
+        "kind": "official-record"
+      },
+      {
+        "label": "Original Spanish act (PDF)",
+        "language": "es",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/122925/Ley%204-2017.pdf/%7B71115983-8399-4ABF-90B3-7A0091D91B02%7D.pdf",
+        "kind": "official-text"
+      },
+      {
+        "label": "Original English act (PDF)",
+        "language": "en",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/122925/A-004-2017.pdf",
+        "kind": "official-translation"
+      }
+    ]
+  },
+  {
+    "id": "act-80-1976",
+    "number": "Act No. 80 of 1976",
+    "title": "Unjust Dismissal and Compensation",
+    "spanishTitle": "Despido sin Justa Causa; Indemnización",
+    "description": "The original 1976 law on severance compensation and related rules for dismissal without just cause.",
+    "enactedOn": "1976-05-30",
+    "edition": "Original 1976 enactment (archive extract)",
+    "status": "in-review",
+    "coverage": {
+      "label": "Initial 1976 comparison completed",
+      "reviewedSections": 11,
+      "totalSections": 11
+    },
+    "sources": [
+      {
+        "label": "Original Spanish Act 80-1976 (PDF)",
+        "language": "es",
+        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2/0080-1976.pdf",
+        "kind": "official-text",
+        "note": "Government archive extract; Act 80 begins partway through PDF page 1."
+      },
+      {
+        "label": "English Act 80-1976 (PDF)",
+        "language": "en",
+        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2-ingles/0080-1976.pdf",
+        "kind": "official-translation",
+        "note": "Government archive extract; Act 80 begins partway through PDF page 1."
+      }
+    ]
+  }
+]
