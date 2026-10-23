@@ -32,7 +32,7 @@ export function LawList({ laws, findings }: { laws: Law[]; findings: Finding[] }
           return (
             <article key={law.id} className="grid gap-4 border-b border-[#d9dcde] py-8 lg:grid-cols-[minmax(0,1.75fr)_minmax(280px,1fr)] lg:gap-10">
               <div>
-                <h2 className="font-serif text-[28px] leading-[1.18] tracking-[-.015em] text-[#30343a] sm:text-[33px]"><Link href={`/laws/${law.id}/`} className="hover:text-[#2f6789]">{law.number} — {law.title}</Link></h2>
+                <h2 className="font-serif text-[22px] leading-[1.22] tracking-[-.015em] text-[#30343a] sm:text-[26px]"><Link href={`/laws/${law.id}/`} className="hover:text-[#2f6789]">{law.number} — {law.title}</Link></h2>
                 <p className="mt-3 max-w-[75ch] text-[15px] leading-6 text-[#626970]">{law.description}</p>
                 <p className="mt-4 text-[13px] text-[#6a7178]">Original publication · {new Date(`${law.enactedOn}T00:00:00Z`).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" })} · {law.edition}</p>
               </div>
