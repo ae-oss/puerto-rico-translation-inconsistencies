@@ -64,5 +64,130 @@
         "note": "Government archive extract; Act 80 begins partway through PDF page 1."
       }
     ]
+  },
+  {
+    "id": "act-180-1998",
+    "number": "Act No. 180 of 1998",
+    "title": "Minimum Wage, Vacation and Sick Leave Act",
+    "spanishTitle": "Ley de Salario Mínimo, Vacaciones y Licencia por Enfermedad de Puerto Rico",
+    "description": "The original 1998 law on minimum wage coverage, vacation and sick leave, enforcement, and transitional protections.",
+    "enactedOn": "1998-07-27",
+    "edition": "Original 1998 enactment (archive extract)",
+    "status": "in-review",
+    "coverage": {
+      "label": "Initial original-text comparison completed · 17 of 17 legislative English PDF pages screened",
+      "reviewedSections": 17,
+      "totalSections": 17
+    },
+    "sources": [
+      {
+        "label": "Original Spanish Act 180-1998 (PDF)",
+        "language": "es",
+        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2/0180-1998.pdf",
+        "kind": "official-text",
+        "note": "Government archive scan. Act 180 begins partway through PDF page 1 and ends partway through PDF page 8."
+      },
+      {
+        "label": "Original English Act 180-1998 (PDF)",
+        "language": "en",
+        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2-ingles/0180-1998.pdf",
+        "kind": "official-translation",
+        "note": "Government archive translation. PDF pages 1–17 contain the Act; page 18 is a translator certification."
+      }
+    ]
+  },
+  {
+    "id": "act-100-1959",
+    "number": "Act No. 100 of 1959",
+    "title": "Employment Discrimination Protections",
+    "spanishTitle": "Protección contra el discrimen en el empleo",
+    "description": "The original 1959 law protecting employees and job applicants against specified forms of discrimination by employers and labor unions.",
+    "enactedOn": "1959-06-30",
+    "edition": "Original 1959 enactment (archive extract)",
+    "status": "in-review",
+    "coverage": {
+      "label": "Initial original-text comparison completed · both English archive spreads and Sections 1–7 screened",
+      "reviewedSections": 7,
+      "totalSections": 7
+    },
+    "sources": [
+      {
+        "label": "Original Spanish Act 100-1959 (PDF)",
+        "language": "es",
+        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2/0100-1959.pdf",
+        "kind": "official-text",
+        "note": "Government archive scan; Act 100 begins partway through PDF page 1 and ends partway through PDF page 2."
+      },
+      {
+        "label": "Original English Act 100-1959 (PDF)",
+        "language": "en",
+        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2-ingles/0100-1959.pdf",
+        "kind": "official-translation",
+        "note": "Government archive scan; Act 100 begins partway through PDF page 1 and ends partway through PDF page 2."
+      }
+    ]
+  },
+  {
+    "id": "act-427-2000",
+    "number": "Act No. 427 of 2000",
+    "title": "Breastfeeding and Milk Expression Breaks",
+    "spanishTitle": "Ley para Reglamentar el Período de Lactancia o de Extracción de Leche Materna",
+    "description": "The original 2000 law establishing workplace breaks for breastfeeding or expressing breast milk, with related employer duties, incentives, and remedies.",
+    "enactedOn": "2000-12-16",
+    "edition": "Original 2000 enactment (archive extract)",
+    "status": "in-review",
+    "coverage": {
+      "label": "Initial original-text comparison completed · 5 of 5 legislative English PDF pages screened",
+      "reviewedSections": 11,
+      "totalSections": 11
+    },
+    "sources": [
+      {
+        "label": "Original Spanish Act 427-2000 (PDF)",
+        "language": "es",
+        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2/0427-2000.pdf",
+        "kind": "official-text",
+        "note": "Government archive scan. Act 427 begins on the right leaf of PDF page 1 and ends at the top of PDF page 4."
+      },
+      {
+        "label": "Original English Act 427-2000 (PDF)",
+        "language": "en",
+        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2-ingles/0427-2000.pdf",
+        "kind": "official-translation",
+        "note": "Government archive translation. PDF pages 1–5 contain the Act; page 6 is a later translator certification."
+      }
+    ]
+  },
+  {
+    "id": "act-1-2011",
+    "number": "Act No. 1 of 2011",
+    "title": "Internal Revenue Code for a New Puerto Rico",
+    "spanishTitle": "Código de Rentas Internas para un Nuevo Puerto Rico",
+    "description": "Targeted comparison of three original tax-code provisions later addressed by Act 4 of 2017; only the cited context pages were reviewed.",
+    "enactedOn": "2011-01-31",
+    "edition": "Original 2011 enactment · selected provisions only",
+    "textScope": "selected",
+    "status": "in-review",
+    "coverage": {
+      "label": "Targeted review · 10 noncontiguous English pages of 1,316 screened",
+      "reviewedSections": 3,
+      "totalSections": null
+    },
+    "sources": [
+      {
+        "label": "Original Spanish Act 1-2011 (PDF)",
+        "language": "es",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/31271/Ley%201%20del%202011.pdf/%7B6A4FA7F9-F221-4827-9AF3-516CC6AD9E32%7D.pdf",
+        "kind": "official-text",
+        "note": "Original 1,087-page Legislative Assembly scan. Targeted pages 68–72, 104–105, and 362–363 were compared."
+      },
+      {
+        "label": "Original English Act 1-2011 (PDF)",
+        "language": "en",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/31271/A-0001-2011.pdf",
+        "kind": "official-translation",
+        "note": "Original 1,316-page Legislative Assembly PDF. Targeted pages 81–86, 123–124, and 430–431 were compared."
+      }
+    ]
   }
 ]
