@@ -829,5 +829,503 @@
         "note": "PDF page 3, printed pages 254–255; sentence crosses the archive spread."
       }
     ]
+  },
+  {
+    "id": "act-180-1998-3-jobs-employees",
+    "lawId": "act-180-1998",
+    "published": true,
+    "section": "Original Section 3",
+    "title": "Jobs become employees in the wage-reduction test",
+    "impact": "major",
+    "status": "critical-review",
+    "confidence": "medium",
+    "spanish": [
+      {
+        "text": "su implantación afectará ",
+        "highlight": false
+      },
+      {
+        "text": "substancialmente los empleos",
+        "highlight": true
+      },
+      {
+        "text": " en las empresas cubiertas por este Artículo.",
+        "highlight": false
+      }
+    ],
+    "officialEnglish": [
+      {
+        "text": "its implementation will ",
+        "highlight": false
+      },
+      {
+        "text": "substantially affect the employees",
+        "highlight": true
+      },
+      {
+        "text": " in the enterprises covered by this Section.",
+        "highlight": false
+      }
+    ],
+    "independentEnglish": [
+      {
+        "text": "its implementation will ",
+        "highlight": false
+      },
+      {
+        "text": "substantially affect the jobs",
+        "highlight": true
+      },
+      {
+        "text": " in the enterprises covered by this article.",
+        "highlight": false
+      }
+    ],
+    "meaning": "The Spanish conditions the Secretary’s authority to reduce the local minimum-wage percentage on a substantial effect on jobs or employment. The English instead refers to substantial effects on employees, a potentially broader test.",
+    "potentialConsequence": "An English-only reading could allow the percentage reduction on evidence that workers are substantially affected even if jobs are not. This is a possible interpretation, not evidence that the Secretary lowered any wage or that a worker was paid less.",
+    "impactReason": "Major potential impact: the disputed condition governs authority to lower an otherwise applicable wage floor for local enterprises outside the federal minimum-wage coverage described in this section.",
+    "initialAssessment": "The investigator and independent reviewer both identified the jobs/employees distinction in their original pages 1–10 reports. The coordinator checked the Spanish scan at PDF page 2, printed page 695, and English PDF page 4. The scan spells “substancialmente”; one research transcription modernized that spelling and was corrected for publication.",
+    "criticalReview": "“Affect the employees” can also be understood as affecting their continued employment, which would converge with the Spanish. The original Spanish proviso has awkward syntax, but its noun “empleos” is clear. No administrative application, judicial reading, or actual wage effect was established.",
+    "downstream": {
+      "status": "not-assessed",
+      "summary": "No targeted review of later amendments, administrative practice, or case outcomes has been completed for this historical translation. No actual effect is established.",
+      "citations": []
+    },
+    "sources": [
+      {
+        "label": "Original Spanish Act 180-1998 archive",
+        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2/0180-1998.pdf",
+        "note": "PDF page 2, printed page 695."
+      },
+      {
+        "label": "Original English Act 180-1998 translation",
+        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2-ingles/0180-1998.pdf",
+        "note": "PDF page 4; the Section 3 proviso begins on PDF page 3."
+      }
+    ]
+  },
+  {
+    "id": "act-180-1998-6c-lookback",
+    "lawId": "act-180-1998",
+    "published": true,
+    "section": "Original Section 6(c)",
+    "title": "Optional two-month lookback becomes mandatory",
+    "impact": "limited",
+    "status": "critical-review",
+    "confidence": "medium",
+    "spanish": [
+      {
+        "text": "A estos fines, ",
+        "highlight": false
+      },
+      {
+        "text": "se podrá tomar en consideración",
+        "highlight": true
+      },
+      {
+        "text": " un período no mayor de dos (2) meses antes de usarse o pagarse el beneficio.",
+        "highlight": false
+      }
+    ],
+    "officialEnglish": [
+      {
+        "text": "To such effect, a period which is not greater than two (2) months ",
+        "highlight": false
+      },
+      {
+        "text": "shall be taken into consideration",
+        "highlight": true
+      },
+      {
+        "text": " before taking or paying this benefit.",
+        "highlight": false
+      }
+    ],
+    "independentEnglish": [
+      {
+        "text": "For these purposes, a period of no more than two (2) months ",
+        "highlight": false
+      },
+      {
+        "text": "may be taken into consideration",
+        "highlight": true
+      },
+      {
+        "text": " before the benefit is used or paid.",
+        "highlight": false
+      }
+    ],
+    "meaning": "The Spanish allows consideration of a period up to two months when determining the regular workday for using or paying leave. The English states that such a period shall be considered.",
+    "potentialConsequence": "Where a worker’s regular day varies, a required lookback could affect a leave calculation. Neither version supplies a precise averaging method, and no actual calculation difference has been shown.",
+    "impactReason": "Limited potential impact: the English changes permission to apparent obligation, while the two-month ceiling and the rule anchoring the regular day to the time of use or payment remain intact.",
+    "initialAssessment": "The investigator and independent reviewer both identified the may/shall shift in their original pages 1–10 reports. The coordinator visually checked the Spanish scan at PDF page 4, printed page 698, against English PDF page 7.",
+    "criticalReview": "Spanish “se podrá” does not say who selects the lookback, and the English could be read as requiring consideration only when past workdays are needed to determine the regular day. The available text does not establish a definite amount or direction of any pay difference.",
+    "downstream": {
+      "status": "not-assessed",
+      "summary": "No targeted review of later amendments, administrative practice, or case outcomes has been completed for this historical translation. No actual effect is established.",
+      "citations": []
+    },
+    "sources": [
+      {
+        "label": "Original Spanish Act 180-1998 archive",
+        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2/0180-1998.pdf",
+        "note": "PDF page 4, printed page 698."
+      },
+      {
+        "label": "Original English Act 180-1998 translation",
+        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2-ingles/0180-1998.pdf",
+        "note": "PDF page 7."
+      }
+    ]
+  },
+  {
+    "id": "act-180-1998-10a-injunction",
+    "lawId": "act-180-1998",
+    "published": true,
+    "section": "Original Section 10(a)",
+    "title": "Discretion to seek an injunction becomes a filing duty",
+    "impact": "major",
+    "status": "critical-review",
+    "confidence": "medium",
+    "spanish": [
+      {
+        "text": "A tales efectos, el Secretario, siempre que fuere de opinión que cualquier patrono esté infringiendo o va a infringir cualquier disposición de esta Ley, ",
+        "highlight": false
+      },
+      {
+        "text": "podrá instar recursos de injunction",
+        "highlight": true
+      },
+      {
+        "text": " y cualesquiera otros que fuesen necesarios para hacer efectivos los términos de esta Ley.",
+        "highlight": false
+      }
+    ],
+    "officialEnglish": [
+      {
+        "text": "To such effects, whenever the Secretary believes that any employer is violating or is going to violate any provision of this Act, ",
+        "highlight": false
+      },
+      {
+        "text": "shall file an injunction",
+        "highlight": true
+      },
+      {
+        "text": " or any other remedies that may be needed to enforce the terms of this Act.",
+        "highlight": false
+      }
+    ],
+    "independentEnglish": [
+      {
+        "text": "For these purposes, when the Secretary believes an employer is violating or will violate any provision of this Act, the Secretary ",
+        "highlight": false
+      },
+      {
+        "text": "may seek an injunction",
+        "highlight": true
+      },
+      {
+        "text": " and any other necessary remedy to enforce the Act.",
+        "highlight": false
+      }
+    ],
+    "meaning": "The Spanish authorizes the Secretary to seek an injunction when the Secretary believes an employer violates or will violate the Act. The English turns that specific litigation choice into an apparent duty to file.",
+    "potentialConsequence": "An English-only reader might treat the Secretary’s belief as triggering mandatory court action and challenge a choice not to sue. No such action, agency response, or changed outcome was identified in this review.",
+    "impactReason": "Major potential impact: the wording changes a specific discretionary enforcement power into an apparent mandatory litigation duty.",
+    "initialAssessment": "The investigator and independent reviewer separately identified this modal reversal in their pages 11–17 reports. The coordinator visually checked Spanish PDF page 5, printed page 701, and English PDF page 11.",
+    "criticalReview": "Both versions first impose a general duty to ensure compliance; this may narrow the apparent difference in practical enforcement. The English also omits an explicit subject before “shall file” and allows other remedies. Whether any court would enforce a mandatory-filing interpretation is unassessed.",
+    "downstream": {
+      "status": "not-assessed",
+      "summary": "No targeted review of later amendments, administrative practice, or case outcomes has been completed for this historical translation. No actual effect is established.",
+      "citations": []
+    },
+    "sources": [
+      {
+        "label": "Original Spanish Act 180-1998 archive",
+        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2/0180-1998.pdf",
+        "note": "PDF page 5, printed page 701."
+      },
+      {
+        "label": "Original English Act 180-1998 translation",
+        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2-ingles/0180-1998.pdf",
+        "note": "PDF page 11."
+      }
+    ]
+  },
+  {
+    "id": "act-100-1959-origin-birth",
+    "lawId": "act-100-1959",
+    "published": true,
+    "section": "Original title and Sections 1–2",
+    "title": "Origin becomes birth as a protected ground",
+    "impact": "major",
+    "status": "critical-review",
+    "confidence": "medium",
+    "spanish": [
+      {
+        "text": "por razón de edad avanzada, raza, color, religión, ",
+        "highlight": false
+      },
+      {
+        "text": "origen",
+        "highlight": true
+      },
+      {
+        "text": " o condición social",
+        "highlight": false
+      }
+    ],
+    "officialEnglish": [
+      {
+        "text": "by reason of advanced age, race, color, creed, ",
+        "highlight": false
+      },
+      {
+        "text": "birth",
+        "highlight": true
+      },
+      {
+        "text": " or social position",
+        "highlight": false
+      }
+    ],
+    "independentEnglish": [
+      {
+        "text": "by reason of advanced age, race, color, religion, ",
+        "highlight": false
+      },
+      {
+        "text": "origin",
+        "highlight": true
+      },
+      {
+        "text": " or social status",
+        "highlight": false
+      }
+    ],
+    "meaning": "The original Spanish repeatedly names origin as a protected characteristic, including in operative Sections 1 and 2. The English repeatedly substitutes birth, which may be read as a narrower or different category.",
+    "potentialConsequence": "A narrow English-only reading could leave some ancestry or geographic-origin discrimination outside the named ground, affecting civil or criminal claims. No affected person or decided case was identified.",
+    "impactReason": "Major potential impact: the wording defines who receives the law’s employment-discrimination protections and related remedies.",
+    "initialAssessment": "Both original independent Act 100 reports identified the repeated substitution in the title, motives, and Sections 1–2. The coordinator visually checked the two official archive scans and confirmed the Section 1 wording on Spanish PDF page 1 and English PDF page 1.",
+    "criticalReview": "Historical legal English can use “birth” to refer to family origin, and “social position” may overlap some situations. The review establishes a plausible difference in reading, not a demonstrated gap in legal protection.",
+    "downstream": {
+      "status": "not-assessed",
+      "summary": "No targeted review of later amendments, administrative practice, or case outcomes has been completed for this historical translation. No actual effect is established.",
+      "citations": []
+    },
+    "sources": [
+      {
+        "label": "Original Spanish Act 100-1959 archive",
+        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2/0100-1959.pdf",
+        "note": "PDF page 1, printed page 301."
+      },
+      {
+        "label": "Original English Act 100-1959 translation",
+        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2-ingles/0100-1959.pdf",
+        "note": "PDF page 1, printed page 285."
+      }
+    ]
+  },
+  {
+    "id": "act-100-1959-secretary-order",
+    "lawId": "act-100-1959",
+    "published": true,
+    "section": "Original Section 4",
+    "title": "Power to sue becomes power to order payment",
+    "impact": "major",
+    "status": "critical-review",
+    "confidence": "medium",
+    "spanish": [
+      {
+        "text": "El Secretario del Trabajo ",
+        "highlight": false
+      },
+      {
+        "text": "podrá demandar",
+        "highlight": true
+      }
+    ],
+    "officialEnglish": [
+      {
+        "text": "order the payment",
+        "highlight": true
+      },
+      {
+        "text": " of any sum owing to them",
+        "highlight": false
+      }
+    ],
+    "independentEnglish": [
+      {
+        "text": "The Secretary of Labor ",
+        "highlight": false
+      },
+      {
+        "text": "may sue for payment",
+        "highlight": true
+      },
+      {
+        "text": " of any amount owed to them.",
+        "highlight": false
+      }
+    ],
+    "meaning": "The Spanish authorizes the Secretary to demand payment through suit on workers’ behalf; the English operative sentence says the Secretary may order payment. The latter could suggest a direct administrative power.",
+    "potentialConsequence": "An English-only reader might treat the Secretary as able to impose a payment order without first seeking court relief. No such order or changed outcome was found.",
+    "impactReason": "Major potential impact: the disputed verb could shift the institution empowered to impose a monetary remedy.",
+    "initialAssessment": "Both original independent Act 100 reports identified the sue/order difference. The coordinator checked Section 4 on Spanish PDF page 2, printed page 302, and English PDF page 2, printed page 286.",
+    "criticalReview": "The section begins with court jurisdiction, and the next English sentence refers to “any suit so instituted by the Secretary.” These strong contextual cues support a court-action reading despite the isolated verb. No actual direct-order practice is established.",
+    "downstream": {
+      "status": "not-assessed",
+      "summary": "No targeted review of later amendments, administrative practice, or case outcomes has been completed for this historical translation. No actual effect is established.",
+      "citations": []
+    },
+    "sources": [
+      {
+        "label": "Original Spanish Act 100-1959 archive",
+        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2/0100-1959.pdf",
+        "note": "PDF page 2, printed page 302."
+      },
+      {
+        "label": "Original English Act 100-1959 translation",
+        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2-ingles/0100-1959.pdf",
+        "note": "PDF page 2, printed page 286."
+      }
+    ]
+  },
+  {
+    "id": "act-100-1959-costs-latter",
+    "lawId": "act-100-1959",
+    "published": true,
+    "section": "Original Section 4",
+    "title": "Costs and fees may be limited to labor unions",
+    "impact": "limited",
+    "status": "critical-review",
+    "confidence": "medium",
+    "spanish": [
+      {
+        "text": "En la sentencia que se dictare contra cualquier patrono u organización obrera ",
+        "highlight": false
+      },
+      {
+        "text": "se le impondrán a éstos las costas",
+        "highlight": true
+      },
+      {
+        "text": " y una suma razonable",
+        "highlight": false
+      }
+    ],
+    "officialEnglish": [
+      {
+        "text": "In any judgment passed against any employer or labor union ",
+        "highlight": false
+      },
+      {
+        "text": "the latter shall be imposed costs",
+        "highlight": true
+      },
+      {
+        "text": " and a reasonable sum",
+        "highlight": false
+      }
+    ],
+    "independentEnglish": [
+      {
+        "text": "In any judgment against an employer or labor union, ",
+        "highlight": false
+      },
+      {
+        "text": "those defendants shall be assessed costs",
+        "highlight": true
+      },
+      {
+        "text": " and reasonable attorney’s fees",
+        "highlight": false
+      }
+    ],
+    "meaning": "The Spanish cost provision refers back to both employers and labor organizations. In the English, “the latter” ordinarily singles out the second named class, labor unions.",
+    "potentialConsequence": "A literal union-only reading could excuse an employer from costs and attorney’s fees while leaving the main discrimination claim and damages intact. No cost award or denial based on this wording was found.",
+    "impactReason": "Limited potential impact: the possible exclusion affects a supplementary litigation cost remedy rather than the underlying liability rule.",
+    "initialAssessment": "The independent reviewer discovered the pronoun issue in the original report. The investigator assessed it only in a coordinator-prompted second pass and agreed a narrower English reading was plausible. The coordinator visually checked both official scans.",
+    "criticalReview": "The English sentence still opens with judgments against either employers or unions, and its syntax is awkward. A reader may reasonably apply costs and fees to both. This is a plausible ambiguity, not an established exclusion.",
+    "downstream": {
+      "status": "not-assessed",
+      "summary": "No targeted review of later amendments, administrative practice, or case outcomes has been completed for this historical translation. No actual effect is established.",
+      "citations": []
+    },
+    "sources": [
+      {
+        "label": "Original Spanish Act 100-1959 archive",
+        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2/0100-1959.pdf",
+        "note": "PDF page 2, printed page 303."
+      },
+      {
+        "label": "Original English Act 100-1959 translation",
+        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2-ingles/0100-1959.pdf",
+        "note": "PDF page 2, printed page 286."
+      }
+    ]
+  },
+  {
+    "id": "act-1-2011-ivu-loto-placement",
+    "lawId": "act-1-2011",
+    "published": true,
+    "section": "Original Section 1031.01(b)",
+    "title": "Lottery-prize exclusion appears under annuities in English",
+    "impact": "major",
+    "status": "critical-review",
+    "confidence": "medium",
+    "spanish": [
+      {
+        "text": "(12) ",
+        "highlight": true
+      },
+      {
+        "text": "Premios de la IVU Loto.-Las cantidades o artículos, de cualquier índole, recibidos por concepto de premios de los sorteos realizados como parte del programa de fiscalización del impuesto sobre ventas y uso conocido como “IVU Loto”.",
+        "highlight": false
+      }
+    ],
+    "officialEnglish": [
+      {
+        "text": "(vi) ",
+        "highlight": true
+      },
+      {
+        "text": "IVU-Loto Prizes.– The amounts or goods, of any type, received on account of prizes from draws held as part of the Sales and Use Tax Oversight Program, known as the “IVU-Loto.”",
+        "highlight": false
+      }
+    ],
+    "independentEnglish": [
+      {
+        "text": "(12) ",
+        "highlight": true
+      },
+      {
+        "text": "IVU-Loto prizes.—Amounts or articles of any kind received as prizes from drawings held as part of the sales-and-use-tax oversight program known as IVU-Loto.",
+        "highlight": false
+      }
+    ],
+    "meaning": "The Spanish makes IVU-Loto prizes a separate item (b)(12) among exclusions from gross income. The English puts the prize clause at (b)(11)(A)(vi), inside a paragraph introduced as excluding amounts “with respect to annuities.”",
+    "potentialConsequence": "An English-only literal reading might apply the annuities condition to the lottery-prize clause and treat ordinary IVU-Loto prizes as taxable. No affected return, assessment, taxpayer, or court decision was identified.",
+    "impactReason": "Major potential impact: if that narrower reading were adopted, a stated exclusion from gross income could become unavailable for ordinary lottery prizes. The label describes possible scope, not a demonstrated tax change.",
+    "initialAssessment": "An investigator and independent reviewer examined the same targeted original-Code page blocks without consulting one another. Both identified the structural placement difference; the investigator held it after reading the whole subsection, while the reviewer recommended publication. The coordinator visually checked Spanish PDF pages 71–72 and English PDF page 86, and checked the English annuities lead-in on PDF page 85.",
+    "criticalReview": "The English clause expressly names IVU-Loto prizes and describes lottery drawings, which are plainly unrelated to annuities. The subsection-wide opening also lists items excluded from gross income. A reader could treat “(vi)” as an obvious numbering or indentation error and give the prize clause the same standalone effect as Spanish. The original Code already had (b)(11) for annuities in both languages; Act 4’s later severance-numbering history has not been reconstructed.",
+    "downstream": {
+      "status": "not-assessed",
+      "summary": "The comparison covers selected pages of the original 2011 Code only. Later amendments, tax administration, and actual assessments have not been traced; no real tax consequence is established.",
+      "citations": []
+    },
+    "sources": [
+      {
+        "label": "Original Spanish Act 1-2011",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/31271/Ley%201%20del%202011.pdf/%7B6A4FA7F9-F221-4827-9AF3-516CC6AD9E32%7D.pdf",
+        "note": "PDF pages 71–72; standalone (b)(12) follows the annuities (b)(11)."
+      },
+      {
+        "label": "Original English Act 1-2011",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/31271/A-0001-2011.pdf",
+        "note": "PDF page 85–86; (vi) follows the annuities lead-in and clauses (i)–(v)."
+      }
+    ]
   }
 ]
