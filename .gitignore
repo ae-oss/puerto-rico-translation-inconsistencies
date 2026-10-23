@@ -6,3 +6,4 @@ out/
 .env*
 .pnpm-store/
 research/agents/
+tmp/
