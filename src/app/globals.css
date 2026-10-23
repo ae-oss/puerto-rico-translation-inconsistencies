@@ -2,10 +2,17 @@
 
 :root { color-scheme: light; }
 html { scroll-behavior: smooth; }
-body { background: #f9f8f4; color: #20393b; }
+body { background: #fff; color: #30343a; }
 button, input, select { font: inherit; }
 button { cursor: pointer; }
 ::selection { background: #dcebec; color: #17383c; }
+.nav-link { border: 1px solid #d8dadd; border-radius: 3px; padding: 7px 12px; background: #fff; }
+.nav-link:hover { border-color: #aebbc2; color: #2d688d; }
+.sort-link { color: #357aa5; }
+.sort-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+.sort-link.active { color: #3c4145; font-weight: 700; }
+.reader-scroll { scrollbar-color: #c9cccd transparent; scrollbar-width: thin; }
+.reader-mark { background: #fff0b5; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
 .eyebrow { color: #43747b; font-size: 11px; font-weight: 700; letter-spacing: .17em; text-transform: uppercase; }
 .text-balance { text-wrap: balance; }
 summary::-webkit-details-marker { display: none; }
