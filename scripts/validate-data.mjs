@@ -1,0 +1,57 @@
+import { readFileSync } from "node:fs";
+
+const read = (path) => JSON.parse(readFileSync(new URL(path, import.meta.url), "utf8"));
+const laws = read("../src/data/laws.json");
+const findings = read("../src/data/findings.json");
+const demo = read("../src/data/demo.json");
+const reviewNotes = read("../src/data/review-notes.json");
+const errors = [];
+const lawIds = new Set();
+const findingIds = new Set();
+const reviewNoteIds = new Set();
+const impacts = new Set(["major", "limited", "unrated"]);
+const statuses = new Set(["pending", "initial-review", "critical-review", "reviewed"]);
+
+function check(condition, message) { if (!condition) errors.push(message); }
+function text(value) { return typeof value === "string" && value.trim().length > 0; }
+function https(value) { return typeof value === "string" && /^https:\/\//.test(value); }
+function parts(value) { return Array.isArray(value) && value.length > 0 && value.every((part) => text(part.text) && typeof part.highlight === "boolean"); }
+
+check(Array.isArray(laws), "laws.json must be an array");
+check(Array.isArray(findings), "findings.json must be an array");
+check(Array.isArray(reviewNotes), "review-notes.json must be an array");
+if (Array.isArray(laws)) for (const law of laws) {
+  check(text(law.id) && !lawIds.has(law.id), `Law has a missing or duplicate ID: ${law.id}`);
+  lawIds.add(law.id);
+  for (const key of ["number", "title", "spanishTitle", "description", "edition"]) check(text(law[key]), `Law ${law.id}: ${key} is required`);
+  check(["awaiting-review", "in-review", "reviewed"].includes(law.status), `Law ${law.id}: invalid status`);
+  check(text(law.coverage?.label) && Number.isInteger(law.coverage?.reviewedSections) && law.coverage.reviewedSections >= 0 && (law.coverage.totalSections === null || (Number.isInteger(law.coverage.totalSections) && law.coverage.reviewedSections <= law.coverage.totalSections)), `Law ${law.id}: coverage is incomplete`);
+  check(Array.isArray(law.sources) && law.sources.some((source) => source.kind === "official-text" && source.language === "es" && https(source.url)) && law.sources.some((source) => source.kind === "official-translation" && source.language === "en" && https(source.url)), `Law ${law.id}: both official source links are required`);
+}
+if (Array.isArray(findings)) for (const finding of findings) {
+  check(text(finding.id) && !findingIds.has(finding.id), `Finding has a missing or duplicate ID: ${finding.id}`);
+  findingIds.add(finding.id);
+  check(lawIds.has(finding.lawId), `Finding ${finding.id}: unknown law ID`);
+  check(typeof finding.published === "boolean", `Finding ${finding.id}: published must be boolean`);
+  check(finding.published === true, `Finding ${finding.id}: unpublished drafts must stay in the Git-ignored research file, not public findings.json`);
+  check(text(finding.section) && text(finding.title), `Finding ${finding.id}: section and title are required`);
+  check(impacts.has(finding.impact) && statuses.has(finding.status), `Finding ${finding.id}: impact or review status is invalid`);
+  check(["low", "medium", "high"].includes(finding.confidence), `Finding ${finding.id}: confidence is required`);
+  for (const key of ["spanish", "officialEnglish", "independentEnglish"]) check(parts(finding[key]), `Finding ${finding.id}: ${key} must contain text parts`);
+  for (const key of ["meaning", "potentialConsequence", "impactReason", "initialAssessment", "criticalReview"]) check(text(finding[key]), `Finding ${finding.id}: ${key} is required`);
+  check(["confirmed", "potential", "none-demonstrated", "not-assessed"].includes(finding.downstream?.status) && text(finding.downstream?.summary), `Finding ${finding.id}: downstream assessment is incomplete`);
+  check(Array.isArray(finding.downstream?.citations) && finding.downstream.citations.every((source) => text(source.label) && https(source.url)), `Finding ${finding.id}: invalid downstream citation`);
+  const law = laws.find((candidate) => candidate.id === finding.lawId);
+  check(Array.isArray(finding.sources) && law?.sources.filter((source) => ["official-text", "official-translation"].includes(source.kind)).every((source) => finding.sources.some((citation) => citation.url === source.url)) && finding.sources.every((source) => text(source.label) && https(source.url)), `Finding ${finding.id}: both original source citations are required`);
+}
+if (Array.isArray(reviewNotes)) for (const note of reviewNotes) {
+  check(text(note.id) && !reviewNoteIds.has(note.id) && !findingIds.has(note.id), `Review note has a missing or duplicate ID: ${note.id}`);
+  reviewNoteIds.add(note.id);
+  check(lawIds.has(note.lawId), `Review note ${note.id}: unknown law ID`);
+  check(text(note.section) && text(note.title) && text(note.summary), `Review note ${note.id}: section, title and summary are required`);
+  check(["unresolved", "excluded"].includes(note.disposition), `Review note ${note.id}: invalid disposition`);
+}
+check(demo.published === false && demo.status === "demonstration" && demo.lawId === null, "Demonstration must remain unpublished and unlinked to a law");
+
+if (errors.length) { for (const error of errors) console.error(`• ${error}`); process.exit(1); }
+console.log(`Validated ${laws.length} law(s), ${findings.length} published finding(s), and ${reviewNotes.length} screening note(s); demonstration data remains separate.`);
