@@ -37,7 +37,7 @@ export function LawList({ laws, findings }: { laws: Law[]; findings: Finding[] }
                 <p className="mt-4 text-[12px] text-[#6a7178]">Original publication · {new Date(`${law.enactedOn}T00:00:00Z`).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" })} · {law.edition}</p>
               </div>
               <div className="lg:pt-1">
-                <Link href={`/laws/${law.id}/`} className="inline-flex items-center gap-3 text-[14px] text-[#333a40] hover:text-[#2f6789]"><strong className="font-serif text-[22px] font-normal">{published.length}</strong> {published.length === 1 ? "difference" : "differences"} in meaning <span className="text-[#3879a3]" aria-hidden="true">→</span></Link>
+                <Link href={`/laws/${law.id}/`} className="inline-flex items-center gap-3 text-[14px] text-[#333a40] hover:text-[#2f6789]">{published.length === 0 ? "No published findings yet" : <><strong className="font-serif text-[22px] font-normal">{published.length}</strong> {published.length === 1 ? "difference" : "differences"} in meaning</>} <span className="text-[#3879a3]" aria-hidden="true">→</span></Link>
                 <p className="mt-3 flex items-center gap-2 text-[12px] text-[#5d676d]"><span className="h-[9px] w-[9px] rounded-full bg-[#2a705d]" aria-hidden="true" />{law.coverage.label}</p>
                 <div className="mt-4 flex h-[8px] max-w-[470px] overflow-hidden bg-[#e4e6e6]" role="img" aria-label={`${major} major and ${limited} limited potential impact findings`}>
                   {major > 0 && <span className="bg-[#30353a]" style={{ width: `${major / published.length * 100}%` }} />}
