@@ -19,11 +19,14 @@ pnpm dev
 - `research/agents/findings-drafts.json` holds unpublished research drafts locally. The entire `research/agents/` directory is ignored by Git so these drafts and review notes do not enter the public source repository. Use `src/data/demo.json` to see the format, but do **not** copy its fictional text into a real finding.
 - `src/data/findings.json` holds only findings approved for public release. Published entries can still show an open legal-review stage and must state limits and counterreadings.
 - `src/data/review-notes.json` holds unresolved candidates and wording errors that do not support a legal-impact finding; these appear outside finding counts.
+- `src/data/act-texts.json` holds the full extracted official English act text, page anchors, and links to findings. Regenerate it with `python scripts/extract-act-text.py` after placing the two official English PDFs at `tmp/pdfs/act4-english.pdf` and `tmp/pdfs/act80-english.pdf`. The `tmp/` directory is ignored by Git.
 - `src/lib/types.ts` is the TypeScript data model. `scripts/validate-data.mjs` checks the essential publication fields during every build.
 
 Each real finding includes a law ID, section, Spanish and English excerpts, an independent translation, highlighted text parts, an explanation, possible consequences, impact and confidence assessments, initial and critical reviews, downstream status and citations, and source URLs. Keep unpublished work in the ignored research file. Once a record is approved for release, copy it to `src/data/findings.json`, set `published: true`, validate and build, then deploy. Review status is separate from publication status. A hidden page element is not private in a public repository, so never place an unpublished draft in `src/data/findings.json`.
 
 For the original 2017 comparison, use the two PDFs on the [Puerto Rico Legislative Assembly record](https://sutra.oslpr.org/prontuarios/leyes-aprobadas/122925). Do not silently replace them with later consolidated texts. If the comparison concerns legal effect at a particular date, check the language precedence rule applicable at that time. The [2020 Civil Code, Article 26](https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/55-2020.pdf) and the archived [1930 Civil Code, Article 13](https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/C%C3%B3digos/48-1930.pdf) use different formulations.
+
+The reader displays the full official English Act 4 text. The original 1976 Act 80 archive is a scan; its searchable text is OCR and can contain transcription mistakes. The reader flags this and links to the official PDF, which controls for exact wording. The HTML text includes only Act 80; the preceding Act 79 material on the first archive spread is excluded.
 
 ## Deploy
 
