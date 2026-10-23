@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+:root { color-scheme: light; }
+html { scroll-behavior: smooth; }
+body { background: #f9f8f4; color: #20393b; }
+button, input, select { font: inherit; }
+button { cursor: pointer; }
+::selection { background: #dcebec; color: #17383c; }
+.eyebrow { color: #43747b; font-size: 11px; font-weight: 700; letter-spacing: .17em; text-transform: uppercase; }
+.text-balance { text-wrap: balance; }
+summary::-webkit-details-marker { display: none; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
