@@ -22,7 +22,10 @@ export function LawReader({ law, laws, findings, reviewNotes, pages }: Props) {
   const [impact, setImpact] = useState("all");
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const englishSource = law.sources.find((source) => source.language === "en")?.url;
-  const findingPage = useMemo(() => Object.fromEntries(pages.flatMap((page) => page.findingIds.map((id) => [id, page.page]))), [pages]);
+  const findingPage = useMemo(() => pages.reduce<Record<string, number>>((locations, page) => {
+    for (const id of page.findingIds) locations[id] ??= page.page;
+    return locations;
+  }, {}), [pages]);
   const visiblePages = view === "highlights" ? pages.filter((page) => page.findingIds.length) : pages;
   const filtered = findings.filter((finding) => impact === "all" || finding.impact === impact).sort((a, b) => {
     if (order === "impact") return ({ major: 0, limited: 1, unrated: 2 }[a.impact] - { major: 0, limited: 1, unrated: 2 }[b.impact]) || ((findingPage[a.id] || 0) - (findingPage[b.id] || 0));
@@ -30,7 +33,7 @@ export function LawReader({ law, laws, findings, reviewNotes, pages }: Props) {
   });
   const selected = findings.find((finding) => finding.id === selectedId) || null;
   const selectedIndex = filtered.findIndex((finding) => finding.id === selectedId);
-  const places = new Set(findings.map((finding) => finding.section)).size;
+  const places = new Set(filtered.map((finding) => finding.section)).size;
 
   useEffect(() => {
     function readHash() {
