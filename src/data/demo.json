@@ -1,0 +1,36 @@
+{
+  "id": "illustrative-example",
+  "lawId": null,
+  "published": false,
+  "section": "Fictional Section 1",
+  "title": "A requirement becomes an option",
+  "impact": "unrated",
+  "status": "demonstration",
+  "confidence": null,
+  "spanish": [
+    { "text": "La persona ", "highlight": false },
+    { "text": "deberá", "highlight": true },
+    { "text": " presentar la solicitud dentro de treinta días.", "highlight": false }
+  ],
+  "officialEnglish": [
+    { "text": "The person ", "highlight": false },
+    { "text": "may", "highlight": true },
+    { "text": " submit the application within thirty days.", "highlight": false }
+  ],
+  "independentEnglish": [
+    { "text": "The person ", "highlight": false },
+    { "text": "must", "highlight": true },
+    { "text": " submit the application within thirty days.", "highlight": false }
+  ],
+  "meaning": "In this fictional example, the Spanish sentence expresses a requirement while the illustrative English sentence expresses permission.",
+  "potentialConsequence": "If these were real statutory texts, the difference could affect whether filing is mandatory. No conclusion about any Puerto Rico law follows from this example.",
+  "impactReason": "Not rated: this example is only here to show the presentation format.",
+  "initialAssessment": "Demonstration only. No official provision has been compared or assessed.",
+  "criticalReview": "Pending. A real review would check the source wording, surrounding provisions, legal context, and relevant cases.",
+  "downstream": {
+    "status": "not-assessed",
+    "summary": "No downstream research has been performed for this fictional example.",
+    "citations": []
+  },
+  "sources": []
+}
