@@ -38,7 +38,7 @@ export function FindingDetail({ finding, demo = false }: { finding: Finding; dem
         <div className="mb-7 flex flex-wrap items-start justify-between gap-4">
           <div>
             <p className="mb-2 text-[11px] font-bold uppercase tracking-[.15em] text-[#6d8586]">{finding.section}</p>
-            <h2 className="font-serif text-[28px] leading-tight tracking-[-.025em] text-[#173238] sm:text-[32px]">{finding.title}</h2>
+            <h2 className="font-serif text-[22px] leading-tight tracking-[-.025em] text-[#173238] sm:text-[26px]">{finding.title}</h2>
           </div>
           <div className="flex flex-col items-start gap-2"><ImpactBadge impact={finding.impact} />{!demo && <span className="text-[11px] font-medium text-[#647877]">{finding.status.replaceAll("-", " ")} · {finding.confidence} assessment confidence</span>}</div>
         </div>
