@@ -2,12 +2,14 @@ import lawsJson from "@/data/laws.json";
 import findingsJson from "@/data/findings.json";
 import demoJson from "@/data/demo.json";
 import reviewNotesJson from "@/data/review-notes.json";
-import type { Finding, Law, ReviewNote } from "@/lib/types";
+import actTextsJson from "@/data/act-texts.json";
+import type { ActTextPage, Finding, Law, ReviewNote } from "@/lib/types";
 
 export const laws = lawsJson as Law[];
 export const findings = findingsJson as Finding[];
 export const demoFinding = demoJson as Finding;
 export const reviewNotes = reviewNotesJson as ReviewNote[];
+export const actTexts = actTextsJson as Record<string, ActTextPage[]>;
 
 export function getLaw(id: string) {
   return laws.find((law) => law.id === id);
