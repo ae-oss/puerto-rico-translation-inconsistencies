@@ -1,0 +1,833 @@
+[
+  {
+    "id": "act-4-2017-2-12-interpretive-law",
+    "lawId": "act-4-2017",
+    "published": true,
+    "section": "Article 2.12",
+    "title": "The law is omitted from interpretive factors",
+    "impact": "limited",
+    "status": "critical-review",
+    "confidence": "medium",
+    "spanish": [
+      {
+        "text": "lo pactado por las partes, ",
+        "highlight": false
+      },
+      {
+        "text": "la ley, ",
+        "highlight": true
+      },
+      {
+        "text": "el propósito de la relación, la productividad, la naturaleza de la relación de empleo, la buena fe, los usos y las costumbres del comercio generalmente observadas",
+        "highlight": false
+      }
+    ],
+    "officialEnglish": [
+      {
+        "text": "what the parties have agreed upon, the purpose of the relationship, productivity, the nature of the work relationship, good faith, and the general practices and customs of the business sector",
+        "highlight": false
+      }
+    ],
+    "independentEnglish": [
+      {
+        "text": "what the parties agreed, ",
+        "highlight": false
+      },
+      {
+        "text": "the law, ",
+        "highlight": true
+      },
+      {
+        "text": "the relationship's purpose, productivity, the nature of the employment relationship, good faith, and generally observed commercial usages and customs",
+        "highlight": false
+      }
+    ],
+    "meaning": "The Spanish expressly lists the law as a guide to interpreting an ambiguous employment-contract provision. The corresponding English list omits it. The next sentence extends this instruction to employer policies and rules.",
+    "potentialConsequence": "An English-only reader might give less express weight to statutory law in a narrow ambiguity dispute. The omission does not permit an employment contract or policy to override mandatory law.",
+    "impactReason": "Limited potential impact: this changes an express interpretive factor, but general legal requirements and surrounding provisions substantially constrain the possible effect.",
+    "initialAssessment": "Two investigators and the adjudicator checked the original Spanish PDF page 20 and official English PDF page 26. 'La ley' appears in the Spanish list and has no corresponding phrase in the English list.",
+    "criticalReview": "The interpretive list is not necessarily exclusive; mandatory law still applies, and nearby English Sections 2.8 and 2.10 explicitly refer to law. No dispute was identified in which this omission changed an interpretation. Confidence is high in the textual omission, medium-low in a possible outcome change, and low in any actual effect.",
+    "downstream": {
+      "status": "none-demonstrated",
+      "summary": "No later administrative or judicial reliance on an interpretation excluding law from the listed factors was found in this first review. A targeted case-law and amendment check remains open.",
+      "citations": []
+    },
+    "sources": [
+      {
+        "label": "Original Spanish Act 4-2017",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/122925/Ley%204-2017.pdf/%7B71115983-8399-4ABF-90B3-7A0091D91B02%7D.pdf",
+        "note": "Article 2.12, PDF page 20."
+      },
+      {
+        "label": "Official English Act 4-2017",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/122925/A-004-2017.pdf",
+        "note": "Section 2.12, PDF page 26."
+      }
+    ]
+  },
+  {
+    "id": "act-4-2017-2-17-occupational-disease",
+    "lawId": "act-4-2017",
+    "published": true,
+    "section": "Article 2.17",
+    "title": "Occupational diseases become injuries",
+    "impact": "major",
+    "status": "critical-review",
+    "confidence": "medium",
+    "spanish": [
+      {
+        "text": "accidentes o ",
+        "highlight": false
+      },
+      {
+        "text": "enfermedades",
+        "highlight": true
+      },
+      {
+        "text": " ocurridas en el empleo",
+        "highlight": false
+      }
+    ],
+    "officialEnglish": [
+      {
+        "text": "work-related accidents or ",
+        "highlight": false
+      },
+      {
+        "text": "injuries",
+        "highlight": true
+      }
+    ],
+    "independentEnglish": [
+      {
+        "text": "work-related accidents or ",
+        "highlight": false
+      },
+      {
+        "text": "diseases",
+        "highlight": true
+      }
+    ],
+    "meaning": "In the Puerto Rico law carve-out for certain temporary assignees from another jurisdiction, the Spanish names workplace accidents or diseases. The English substitutes injuries for diseases.",
+    "potentialConsequence": "A narrow English-only reading might leave occupational disease outside the local-law carve-out, affecting medical or compensation rights for a temporarily assigned worker. Whether any governing statute could actually be displaced this way remains unresolved.",
+    "impactReason": "Major potential impact, conditional on a narrower reading: eligibility for occupational-disease protections could materially affect medical care or compensation, even though the affected group is limited.",
+    "initialAssessment": "Both investigators and the adjudicator visually verified 'enfermedades' in the original Spanish PDF page 22 and 'injuries' in the official English PDF page 29. Disease and injury name different categories in this context.",
+    "criticalReview": "'Work-related injury' can sometimes include disease, and the English sentence refers to laws relating to accidents or injuries; a law relating to accidents may also cover disease. Puerto Rico's workers' compensation law may apply independently. The Labor Department's 2019 guide says Puerto Rico law on accidents or illnesses governs these assignments. Confidence is high in the textual substitution, medium in a material divergent reading, and low in actual legal effect.",
+    "downstream": {
+      "status": "none-demonstrated",
+      "summary": "No official decision adopting a disease-excluding English reading was found in this first review. The Labor Department's 2019 guide describes the Puerto Rico-law carve-out as covering workplace illnesses. Further review of Act 45 and case law remains open.",
+      "citations": [
+        {
+          "label": "Labor Department interpretation guide (2019)",
+          "url": "https://trabajo.pr.gov/docs/Boletines/Guias_Legislacion_Laboral.pdf",
+          "note": "Section 3.7 discusses temporary assignments and workplace illnesses."
+        },
+        {
+          "label": "State Insurance Fund Corporation rights overview",
+          "url": "https://www.cfse.pr.gov/en/lesionados--derechos-y-obligaciones",
+          "note": "Distinguishes work accidents and occupational illnesses."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "label": "Original Spanish Act 4-2017",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/122925/Ley%204-2017.pdf/%7B71115983-8399-4ABF-90B3-7A0091D91B02%7D.pdf",
+        "note": "Article 2.17, PDF page 22."
+      },
+      {
+        "label": "Official English Act 4-2017",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/122925/A-004-2017.pdf",
+        "note": "Section 2.17, PDF page 29."
+      }
+    ]
+  },
+  {
+    "id": "act-4-2017-2-19-religious-accommodation",
+    "lawId": "act-4-2017",
+    "published": true,
+    "section": "Article 2.19",
+    "title": "Existing employees disappear from the accommodation trigger",
+    "impact": "major",
+    "status": "critical-review",
+    "confidence": "medium",
+    "spanish": [
+      {
+        "text": "Después que ",
+        "highlight": false
+      },
+      {
+        "text": "un empleado o empleado potencial",
+        "highlight": true
+      },
+      {
+        "text": " notifique al patrono, por escrito, su necesidad de acomodo religioso, el patrono tiene la obligación de acomodar razonablemente las prácticas religiosas del individuo.",
+        "highlight": false
+      }
+    ],
+    "officialEnglish": [
+      {
+        "text": "After ",
+        "highlight": false
+      },
+      {
+        "text": "a potential employee",
+        "highlight": true
+      },
+      {
+        "text": " notifies the employer, in writing, of his need for religious accommodation, the employer shall have the obligation to reasonably accommodate the religious practices of the individual.",
+        "highlight": false
+      }
+    ],
+    "independentEnglish": [
+      {
+        "text": "After ",
+        "highlight": false
+      },
+      {
+        "text": "an employee or prospective employee",
+        "highlight": true
+      },
+      {
+        "text": " notifies the employer in writing of the need for religious accommodation, the employer must reasonably accommodate the individual's religious practices.",
+        "highlight": false
+      }
+    ],
+    "meaning": "The Spanish notice condition expressly covers both existing and prospective employees. The English sentence names only prospective employees.",
+    "potentialConsequence": "If the English sentence were read literally and in isolation, an existing employee could appear unable to trigger the general reasonable-accommodation duty by giving written notice. This is a potential reading, not an established legal outcome.",
+    "impactReason": "Major potential impact: the divergent reading could remove an important employment right and the corresponding employer obligation for existing workers.",
+    "initialAssessment": "Two independent investigators and an adjudicator visually checked the original Spanish PDF page 22 against the official English PDF page 29. The omission is in the translated sentence, not the Spanish source.",
+    "criticalReview": "Later English sentences refer to an employee choosing an accommodation and prohibit an employer from refusing an employee's participation in religious services. These support coverage of current workers when the article is read as a whole. The Labor Department's Regulation 8947 and 2019 guide expressly describe coverage of employees and prospective employees. Confidence is high in the textual omission, medium in a materially different whole-article reading, and low in any actual adverse effect.",
+    "downstream": {
+      "status": "none-demonstrated",
+      "summary": "No administrative or judicial reliance on an applicant-only English reading was found in this first review. Regulation 8947 and the Labor Department's 2019 guide instead recognize both groups. A broader case-law and amendment search remains open.",
+      "citations": [
+        {
+          "label": "Labor Department Regulation 8947",
+          "url": "https://trabajo.pr.gov/docs/Libreria_Laboral/Reglamentos/8947%20Reglamento%20para%20la%20Aplicaci%C3%B3n%20del%20Esquema%20de%20Acomodo%20Razonable%20para%20Pr%C3%A1cticas%20Religiosas%20en%20el%20Empleo%20dispuesto%20en%20el%20Art.%202.19%20de%20la%20Ley%204.pdf",
+          "note": "Definitions and procedure, PDF pages 3–5."
+        },
+        {
+          "label": "Labor Department interpretation guide (2019)",
+          "url": "https://trabajo.pr.gov/docs/Boletines/Guias_Legislacion_Laboral.pdf",
+          "note": "Chapter 4 discusses both employees and prospective employees."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "label": "Original Spanish Act 4-2017",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/122925/Ley%204-2017.pdf/%7B71115983-8399-4ABF-90B3-7A0091D91B02%7D.pdf",
+        "note": "Article 2.19, PDF page 22."
+      },
+      {
+        "label": "Official English Act 4-2017",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/122925/A-004-2017.pdf",
+        "note": "Section 2.19, PDF page 29."
+      }
+    ]
+  },
+  {
+    "id": "act-4-2017-3-11-travel-agents",
+    "lawId": "act-4-2017",
+    "published": true,
+    "section": "Section 3.11 / amended Act 379 Art. 13(b)",
+    "title": "Traveling sales agents become “travel agents”",
+    "impact": "major",
+    "status": "critical-review",
+    "confidence": "medium",
+    "spanish": [
+      {
+        "text": "agentes viajeros",
+        "highlight": true
+      },
+      {
+        "text": ", vendedores ambulantes y vendedores externos, según dichos términos son definidos mediante reglamento",
+        "highlight": false
+      }
+    ],
+    "officialEnglish": [
+      {
+        "text": "travel agents",
+        "highlight": true
+      },
+      {
+        "text": ", peddlers, and outside salesmen as such terms are defined through regulations",
+        "highlight": false
+      }
+    ],
+    "independentEnglish": [
+      {
+        "text": "traveling sales agents",
+        "highlight": true
+      },
+      {
+        "text": ", itinerant vendors, and outside salespeople, as defined by regulation",
+        "highlight": false
+      }
+    ],
+    "meaning": "The Spanish overtime exclusion names traveling sales agents. The English term ordinarily means workers who arrange trips, an occupation different from the commercial sales category defined by regulation.",
+    "potentialConsequence": "A literal English-only reading could wrongly identify tourism travel agents as exempt from hours and overtime protections or obscure the intended exemption for traveling sales agents.",
+    "impactReason": "Major potential impact if the ordinary English occupational label were adopted instead of the incorporated regulatory definition: overtime pay and employer liability could differ.",
+    "initialAssessment": "Both investigators and the adjudicator checked Spanish PDF page 28 and English PDF page 36. Regulation 7082 Article VIII(C) describes the Spanish category through selling and procuring orders away from the employer.",
+    "criticalReview": "The same statutory clause expressly incorporates regulatory definitions, which strongly limits a legally informed misreading. Whether Regulation 7082 supplied the operative definition in every post-2017 setting remains to be checked. High confidence in mistranslation; low in actual effect.",
+    "downstream": {
+      "status": "none-demonstrated",
+      "summary": "No overtime ruling or administrative decision relying on “travel agents” as tourism workers was identified in this first review. Further regulatory-history and case-law review remains.",
+      "citations": [
+        {
+          "label": "Puerto Rico Regulation 7082",
+          "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/reogGubernamental/PDF/Reglamentos/7082.pdf",
+          "note": "Article VIII(C) defines agentes viajeros as a sales occupation."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "label": "Original Spanish Act 4-2017",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/122925/Ley%204-2017.pdf/%7B71115983-8399-4ABF-90B3-7A0091D91B02%7D.pdf",
+        "note": "PDF page 28."
+      },
+      {
+        "label": "Official English Act 4-2017",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/122925/A-004-2017.pdf",
+        "note": "PDF page 36."
+      }
+    ]
+  },
+  {
+    "id": "act-4-2017-3-19-twelve-employees",
+    "lawId": "act-4-2017",
+    "published": true,
+    "section": "Section 3.19 / amended Act 180 §6(a)",
+    "title": "Exactly twelve employees fall on opposite sides of the vacation exception",
+    "impact": "major",
+    "status": "critical-review",
+    "confidence": "medium",
+    "spanish": [
+      {
+        "text": "patronos residentes de Puerto Rico cuya cantidad de empleados ",
+        "highlight": false
+      },
+      {
+        "text": "no exceda de doce (12)",
+        "highlight": true
+      }
+    ],
+    "officialEnglish": [
+      {
+        "text": "Puerto Rico resident employers who have ",
+        "highlight": false
+      },
+      {
+        "text": "less than twelve (12)",
+        "highlight": true
+      },
+      {
+        "text": " employees",
+        "highlight": false
+      }
+    ],
+    "independentEnglish": [
+      {
+        "text": "Puerto Rico resident employers whose employee count ",
+        "highlight": false
+      },
+      {
+        "text": "does not exceed twelve",
+        "highlight": true
+      }
+    ],
+    "meaning": "Spanish includes employers with exactly twelve employees in the reduced vacation-accrual exception; English excludes them. Each wording recurs in the next sentence.",
+    "potentialConsequence": "A literal English reading could give experienced workers at an exactly twelve-person employer the general tenure-based vacation accrual rather than the half-day monthly exception in Spanish.",
+    "impactReason": "Major potential impact: the threshold governs a statutory leave entitlement and corresponding payroll liability.",
+    "initialAssessment": "Both investigators and the adjudicator checked Spanish PDF page 32 and English PDF page 40. “Does not exceed twelve” means twelve or fewer; “less than twelve” excludes twelve.",
+    "criticalReview": "The English paragraph later says the exception ends after payroll exceeds twelve, supporting the inclusive boundary. The 2019 Labor Department guide says twelve or fewer. High confidence in the text difference, medium in an English-only divergent reading, low in actual effect.",
+    "downstream": {
+      "status": "none-demonstrated",
+      "summary": "No payroll dispute or ruling adopting the English cutoff was found in this first review. The Labor Department guide follows the Spanish inclusive threshold; broader case-law review remains open.",
+      "citations": [
+        {
+          "label": "Labor Department interpretation guide (2019)",
+          "url": "https://www.trabajo.pr.gov/docs/Boletines/Guias_Legislacion_Laboral.pdf",
+          "note": "Vacation-accrual exception for employers with twelve or fewer workers."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "label": "Original Spanish Act 4-2017",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/122925/Ley%204-2017.pdf/%7B71115983-8399-4ABF-90B3-7A0091D91B02%7D.pdf",
+        "note": "PDF page 32."
+      },
+      {
+        "label": "Official English Act 4-2017",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/122925/A-004-2017.pdf",
+        "note": "PDF page 40."
+      }
+    ]
+  },
+  {
+    "id": "act-4-2017-3-19-twenty-six-weeks",
+    "lawId": "act-4-2017",
+    "published": true,
+    "section": "Section 3.19 / amended Act 180 §6(a)",
+    "title": "The vacation transition changes at exactly 26 weeks",
+    "impact": "limited",
+    "status": "critical-review",
+    "confidence": "high",
+    "spanish": [
+      {
+        "text": "excede doce (12) empleados durante ",
+        "highlight": false
+      },
+      {
+        "text": "más de veintiseis (26) semanas",
+        "highlight": true
+      },
+      {
+        "text": " en cada uno de los dos (2) años calendarios consecutivos",
+        "highlight": false
+      }
+    ],
+    "officialEnglish": [
+      {
+        "text": "exceeds twelve (12) employees during ",
+        "highlight": false
+      },
+      {
+        "text": "twenty-six (26) weeks or more",
+        "highlight": true
+      },
+      {
+        "text": " on each one of the two (2) consecutive calendar years",
+        "highlight": false
+      }
+    ],
+    "independentEnglish": [
+      {
+        "text": "exceeds twelve employees for ",
+        "highlight": false
+      },
+      {
+        "text": "more than twenty-six weeks",
+        "highlight": true
+      },
+      {
+        "text": " in each of two consecutive calendar years",
+        "highlight": false
+      }
+    ],
+    "meaning": "Spanish requires the employer to exceed twelve workers for more than 26 weeks in each of two years before the small-employer vacation exception ends. English includes exactly 26 weeks.",
+    "potentialConsequence": "For an employer at exactly 26 weeks in each relevant year, the English reading could end the reduced-accrual exception one calendar year earlier.",
+    "impactReason": "Limited potential impact: the discrepancy affects a narrow duration boundary, though affected leave accrual can matter to workers and employers.",
+    "initialAssessment": "Both investigators and the adjudicator checked Spanish PDF page 32 and English PDF pages 40–41. More than 26 is mathematically different from 26 or more.",
+    "criticalReview": "The Labor Department guide repeats the strict Spanish greater-than threshold. An English reader might treat its phrasing as an approximation, but the numeric boundary itself differs. High confidence in the text; low in actual effect.",
+    "downstream": {
+      "status": "none-demonstrated",
+      "summary": "No affected employer or employee was identified in this first review. The Labor Department guide follows the Spanish greater-than rule; broader downstream review remains.",
+      "citations": [
+        {
+          "label": "Labor Department interpretation guide (2019)",
+          "url": "https://www.trabajo.pr.gov/docs/Boletines/Guias_Legislacion_Laboral.pdf",
+          "note": "Vacation-accrual transition requires more than 26 weeks."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "label": "Original Spanish Act 4-2017",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/122925/Ley%204-2017.pdf/%7B71115983-8399-4ABF-90B3-7A0091D91B02%7D.pdf",
+        "note": "PDF page 32."
+      },
+      {
+        "label": "Official English Act 4-2017",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/122925/A-004-2017.pdf",
+        "note": "PDF page 40–41."
+      }
+    ]
+  },
+  {
+    "id": "act-4-2017-3-21-wage-notice",
+    "lawId": "act-4-2017",
+    "published": true,
+    "section": "Section 3.21 / amended Act 180 §12(a)",
+    "title": "Employer notice becomes a filed wage claim",
+    "impact": "major",
+    "status": "critical-review",
+    "confidence": "medium",
+    "spanish": [
+      {
+        "text": "por la ",
+        "highlight": false
+      },
+      {
+        "text": "notificación de la deuda de salario al patrono, judicial o extrajudicialmente",
+        "highlight": true
+      },
+      {
+        "text": ", por el obrero, su representante, o funcionario del Departamento con facultad para ello",
+        "highlight": false
+      }
+    ],
+    "officialEnglish": [
+      {
+        "text": "through the ",
+        "highlight": false
+      },
+      {
+        "text": "judicial or extra judicial claim for the wage debt filed",
+        "highlight": true
+      },
+      {
+        "text": " by the worker, his representative or an official of the Department empowered to do so",
+        "highlight": false
+      }
+    ],
+    "independentEnglish": [
+      {
+        "text": "by ",
+        "highlight": false
+      },
+      {
+        "text": "notice of the wage debt to the employer, in or out of court",
+        "highlight": true
+      },
+      {
+        "text": ", by the worker, representative, or authorized Department official",
+        "highlight": false
+      }
+    ],
+    "meaning": "To interrupt the one-year wage-claim limitation period, Spanish specifies notice of the debt to the employer; English omits the recipient and uses “claim ... filed.”",
+    "potentialConsequence": "If “filed” were treated as requiring a formal proceeding, a worker who timely notified the employer informally could lose a wage claim under that English reading.",
+    "impactReason": "Major potential impact only under the formal-filing reading, because it would restrict an important wage remedy.",
+    "initialAssessment": "Both investigators and the adjudicator visually checked Spanish PDF page 33 and English PDF page 42. The wording and stated recipient differ.",
+    "criticalReview": "“Extrajudicial claim” can encompass an informal demand, and “filed” may be loose drafting. The 2019 Labor Department guide treats employer notice as an interrupting act separate from a court action. Confidence is high in the wording difference, medium-low in a legally sustainable formal-filing reading, and low in actual effect.",
+    "downstream": {
+      "status": "none-demonstrated",
+      "summary": "No wage case rejecting timely employer notice because it was not formally filed was found in this first review. The 2019 Labor Department guide supports informal employer notice; further case-law review remains.",
+      "citations": [
+        {
+          "label": "Labor Department interpretation guide (2019)",
+          "url": "https://www.trabajo.pr.gov/docs/Boletines/Guias_Legislacion_Laboral.pdf",
+          "note": "Wage-claim limitations discussion distinguishes court action from notice to employer."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "label": "Original Spanish Act 4-2017",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/122925/Ley%204-2017.pdf/%7B71115983-8399-4ABF-90B3-7A0091D91B02%7D.pdf",
+        "note": "PDF page 33."
+      },
+      {
+        "label": "Official English Act 4-2017",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/122925/A-004-2017.pdf",
+        "note": "PDF page 42."
+      }
+    ]
+  },
+  {
+    "id": "act-4-2017-4-1-agricultural-threshold",
+    "lawId": "act-4-2017",
+    "published": true,
+    "section": "Section 4.1 / amended Act 74 §3(b)(2)",
+    "title": "Agricultural worker threshold includes exactly half in English",
+    "impact": "limited",
+    "status": "critical-review",
+    "confidence": "high",
+    "spanish": [
+      {
+        "text": "un trabajador agrícola ",
+        "highlight": false
+      },
+      {
+        "text": "más del cincuenta por ciento (50%)",
+        "highlight": true
+      },
+      {
+        "text": " de cuyo salario en su período básico fue pagado por servicios agrícolas",
+        "highlight": false
+      }
+    ],
+    "officialEnglish": [
+      {
+        "text": "an agricultural worker ",
+        "highlight": false
+      },
+      {
+        "text": "fifty percent (50%) or more",
+        "highlight": true
+      },
+      {
+        "text": " of whose salary in his base period was paid for agricultural services",
+        "highlight": false
+      }
+    ],
+    "independentEnglish": [
+      {
+        "text": "an agricultural worker with ",
+        "highlight": false
+      },
+      {
+        "text": "more than 50%",
+        "highlight": true
+      },
+      {
+        "text": " of base-period pay from agricultural services",
+        "highlight": false
+      }
+    ],
+    "meaning": "Spanish requires agricultural services to account for more than 50% of base-period pay; English includes exactly 50%.",
+    "potentialConsequence": "An even split between agricultural and nonagricultural pay could produce a different benefit-schedule classification under the English reading.",
+    "impactReason": "Limited potential impact: the difference is confined to an exact-half boundary, and no different payable amount for a specific claimant was established.",
+    "initialAssessment": "Both investigators and the adjudicator checked Spanish PDF page 42 and English PDF page 52. The companion nonagricultural clause uses 50% or more, so the English can overlap at an even split.",
+    "criticalReview": "The meaning of “agricultural worker” and agency practice may narrow the affected class. Benefit schedules may also coincide in a particular year. Confidence is high in the numeric divergence, low in actual payment effect.",
+    "downstream": {
+      "status": "none-demonstrated",
+      "summary": "No claimant or payment difference was identified in this first review. Agency practice and the applicable benefit schedules still require further checking.",
+      "citations": []
+    },
+    "sources": [
+      {
+        "label": "Original Spanish Act 4-2017",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/122925/Ley%204-2017.pdf/%7B71115983-8399-4ABF-90B3-7A0091D91B02%7D.pdf",
+        "note": "PDF page 42."
+      },
+      {
+        "label": "Official English Act 4-2017",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/122925/A-004-2017.pdf",
+        "note": "PDF page 52."
+      }
+    ]
+  },
+  {
+    "id": "act-4-2017-4-13-dismissal-date",
+    "lawId": "act-4-2017",
+    "published": true,
+    "section": "Section 4.13 / amended Act 80 Art. 12",
+    "title": "A dismissal date becomes a complaint filing date",
+    "impact": "major",
+    "status": "critical-review",
+    "confidence": "high",
+    "spanish": [
+      {
+        "text": "Las reclamaciones por ",
+        "highlight": false
+      },
+      {
+        "text": "despidos realizados previo",
+        "highlight": true
+      },
+      {
+        "text": " a la fecha de vigencia de la ‘Ley de Transformación y Flexibilidad Laboral’ quedarán sujetas al término de prescripción previamente en vigor.",
+        "highlight": false
+      }
+    ],
+    "officialEnglish": [
+      {
+        "text": "Complaints for discharges filed prior",
+        "highlight": true
+      },
+      {
+        "text": " to the effective date of the ‘Labor Transformation and Flexibility Act’ shall be subject to the statute of limitations previously in effect.",
+        "highlight": false
+      }
+    ],
+    "independentEnglish": [
+      {
+        "text": "Claims for dismissals ",
+        "highlight": false
+      },
+      {
+        "text": "that occurred before",
+        "highlight": true
+      },
+      {
+        "text": " the Act’s effective date remain subject to the former limitations period.",
+        "highlight": false
+      }
+    ],
+    "meaning": "Spanish preserves the former limitations period for dismissals that occurred before Act 4 took effect; English appears to test when the complaint was filed.",
+    "potentialConsequence": "A worker dismissed before enactment but filing afterward could lose the longer former filing period under a literal English reading.",
+    "impactReason": "Major potential impact: the divergence concerns whether a wrongful-dismissal claim is timely.",
+    "initialAssessment": "Both investigators and the adjudicator checked Spanish PDF page 49 and English PDF page 61. The act being dated shifts from dismissal to filing.",
+    "criticalReview": "“Discharges filed” is awkward and might be repaired in context as claims arising from earlier dismissals. The Labor Department’s 2019 guide expressly uses the date of dismissal. Confidence is high in the text difference and low in actual adverse effect.",
+    "downstream": {
+      "status": "none-demonstrated",
+      "summary": "No lost claim or ruling using the English filing-date condition was identified. Labor Department guidance follows the Spanish dismissal-date rule; further case-law search remains open.",
+      "citations": [
+        {
+          "label": "Labor Department interpretation guide (2019)",
+          "url": "https://trabajo.pr.gov/docs/Boletines/Guias_Legislacion_Laboral.pdf",
+          "note": "Page 153 explains that the dismissal date controls the former period."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "label": "Original Spanish Act 4-2017",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/122925/Ley%204-2017.pdf/%7B71115983-8399-4ABF-90B3-7A0091D91B02%7D.pdf",
+        "note": "PDF page 49."
+      },
+      {
+        "label": "Official English Act 4-2017",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/122925/A-004-2017.pdf",
+        "note": "PDF page 61."
+      }
+    ]
+  },
+  {
+    "id": "act-4-2017-5-1-5-2-medical-release",
+    "lawId": "act-4-2017",
+    "published": true,
+    "section": "Sections 5.1–5.2 / amended Acts 45 and 139",
+    "title": "Medical release becomes hospital discharge",
+    "impact": "major",
+    "status": "critical-review",
+    "confidence": "high",
+    "spanish": [
+      {
+        "text": "fuere ",
+        "highlight": false
+      },
+      {
+        "text": "dado de alta",
+        "highlight": true
+      },
+      {
+        "text": " o fuere autorizado a trabajar con derecho a tratamiento",
+        "highlight": false
+      }
+    ],
+    "officialEnglish": [
+      {
+        "text": "was ",
+        "highlight": false
+      },
+      {
+        "text": "discharged from the hospital",
+        "highlight": true
+      },
+      {
+        "text": " or was authorized to work while undergoing treatment",
+        "highlight": false
+      }
+    ],
+    "independentEnglish": [
+      {
+        "text": "was ",
+        "highlight": false
+      },
+      {
+        "text": "medically released",
+        "highlight": true
+      },
+      {
+        "text": " or authorized to work while continuing treatment",
+        "highlight": false
+      }
+    ],
+    "meaning": "The Spanish release trigger for a fifteen-day reinstatement-request period is medical release, which need not involve hospitalization. English adds “from the hospital” in Sections 5.1 and 5.2.",
+    "potentialConsequence": "An outpatient worker could miss or misunderstand the reinstatement deadline under a literal hospital-only English reading, or the deadline could be tied to the wrong event.",
+    "impactReason": "Major potential impact: the trigger governs the right to request reinstatement after disability.",
+    "initialAssessment": "The investigators and adjudicator checked Spanish PDF page 52 and English PDF pages 64–65. Section 5.2 repeats the hospital wording without Section 5.1’s alternative authorization-to-work trigger.",
+    "criticalReview": "“Hospital discharge” could be loose language for medical release. Section 5.1’s separate work-authorization branch covers some workers, but Section 5.2 lacks it. An older official English Act 45 compilation uses “discharged from treatment.” High confidence in the added hospital restriction; low in actual application.",
+    "downstream": {
+      "status": "none-demonstrated",
+      "summary": "No agency or court decision applying a hospital-only trigger was identified in this first review. Further review of reinstatement administration and cases remains.",
+      "citations": [
+        {
+          "label": "Older English Act 45 compilation",
+          "url": "https://presupuesto.pr.gov/Budget_2012_2013/Aprobado2013Ingles/suppdocs/baselegal_ingles/105/105.pdf",
+          "note": "Section 5-A renders the trigger as “discharged from treatment.”"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "label": "Original Spanish Act 4-2017",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/122925/Ley%204-2017.pdf/%7B71115983-8399-4ABF-90B3-7A0091D91B02%7D.pdf",
+        "note": "PDF page 52."
+      },
+      {
+        "label": "Official English Act 4-2017",
+        "url": "https://sutra.oslpr.org/SutraFilesGen/122925/A-004-2017.pdf",
+        "note": "PDF page 64–65."
+      }
+    ]
+  },
+  {
+    "id": "act-80-1976-8a-conference-deadline",
+    "lawId": "act-80-1976",
+    "published": true,
+    "section": "Section 8(a) (original 1976 enactment)",
+    "title": "The pretrial conference deadline is reversed",
+    "impact": "limited",
+    "status": "critical-review",
+    "confidence": "high",
+    "spanish": [
+      {
+        "text": "el tribunal celebrará una conferencia con anterioridad al juicio ",
+        "highlight": false
+      },
+      {
+        "text": "no más tarde de 30 días después de contestada la demanda",
+        "highlight": true
+      }
+    ],
+    "officialEnglish": [
+      {
+        "text": "the court shall hold a conference prior to the trial ",
+        "highlight": false
+      },
+      {
+        "text": "at least 30 days after the complaint is answered",
+        "highlight": true
+      }
+    ],
+    "independentEnglish": [
+      {
+        "text": "the court shall hold a pretrial conference ",
+        "highlight": false
+      },
+      {
+        "text": "no later than 30 days after the complaint is answered",
+        "highlight": true
+      }
+    ],
+    "meaning": "The 1976 Spanish sets a latest conference date, while the English sets an earliest date with no outer limit. A conference on day 20 meets the Spanish rule but not the literal English; day 45 does the reverse.",
+    "potentialConsequence": "The English reading could delay a mandatory pretrial conference and the opportunity for an order securing potential severance and attorney fees. A material impairment of that remedy in a particular case is possible, but no such case was identified.",
+    "impactReason": "Limited potential impact generally: the difference changes a court timetable rather than the severance entitlement or formula. A substantial delay could have Major consequences if it impaired security or relief in a particular case.",
+    "initialAssessment": "Two independent investigators and a third adjudicator visually checked the original Spanish archive PDF page 3, printed page 271, and English archive PDF page 3, printed pages 254–255. The English sentence crosses the gutter of the archival spread. The timing terms are opposite.",
+    "criticalReview": "The statute also permits a court to require a deposit or bond at any stage when an employer may lack assets, mitigating some risk from a delayed conference. An English reader might infer an obvious mistake from the remedial purpose, but “at least” cannot express the Spanish upper bound. This is the original 1976 text; later amendments changed numbering and provisions, so the historic deadline should not be represented as current law.",
+    "downstream": {
+      "status": "none-demonstrated",
+      "summary": "A later government Spanish consolidation and a 2016 appellate opinion retain an upper-bound deadline, though they concern amended versions. No judicial or agency reliance on the 1976 English lower-bound wording, delayed conference, denied security, or changed outcome was identified in this first review.",
+      "citations": [
+        {
+          "label": "Later Puerto Rico government Spanish consolidation",
+          "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/Trabajo/80-1976/80-1976.pdf",
+          "note": "Later amended text preserves “no más tarde” orientation; not evidence of the 1976 deadline remaining current."
+        },
+        {
+          "label": "Puerto Rico Court of Appeals opinion (2016)",
+          "url": "https://dts.poderjudicial.pr/ta/2016/KLCE201600729-31052016.pdf",
+          "note": "Quotes a then-applicable amended upper-bound conference rule; does not address this translation."
+        }
+      ]
+    },
+    "sources": [
+      {
+        "label": "Original Spanish Act 80-1976 archive",
+        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2/0080-1976.pdf",
+        "note": "PDF page 3, printed page 271; Act 79 appears on PDF page 1."
+      },
+      {
+        "label": "Original English Act 80-1976 archive",
+        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2-ingles/0080-1976.pdf",
+        "note": "PDF page 3, printed pages 254–255; sentence crosses the archive spread."
+      }
+    ]
+  }
+]
