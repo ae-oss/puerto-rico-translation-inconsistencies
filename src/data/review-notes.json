@@ -29,7 +29,7 @@
     "section": "Section 3.28",
     "title": "Severance agreement and settlement agreement",
     "disposition": "unresolved",
-    "summary": "The tax-withholding clause uses different agreement terms. Whether “settlement” actually excludes an agreement covered by the Spanish wording requires a closer tax-law and period-specific review."
+    "summary": "The 2017 tax-withholding amendment uses different agreement terms in Spanish and English. A targeted check of the original 2011 Code found its earlier §1062.01(a)(1)(G) bilingual wording aligned; that older text does not resolve the later amendment. Whether “settlement” excludes an agreement covered by the Spanish 2017 wording still requires period-specific tax-law review."
   },
   {
     "id": "act4-4-10-dismissal-notice",
@@ -70,5 +70,85 @@
     "title": "Abusive indignities and derogatory criticism",
     "disposition": "unresolved",
     "summary": "Spanish vejámenes is broader than the English “derogatory criticisms.” The examples of conduct causing a worker to resign are nonexclusive, and English still covers humiliations through acts or words. A different eligibility rule has not been established."
+  },
+  {
+    "id": "act180-2-future-amendments",
+    "lawId": "act-180-1998",
+    "section": "Original Section 2",
+    "title": "Express future federal amendments",
+    "disposition": "unresolved",
+    "summary": "Spanish expressly includes future amendments to the federal wage law; English only says it “has subsequently been amended.” The same sentence says the federal minimum wage applies automatically, and federal coverage independently constrains any frozen reading. No distinct wage outcome has been established."
+  },
+  {
+    "id": "act180-2-working-time",
+    "lawId": "act-180-1998",
+    "section": "Original Section 2",
+    "title": "Working-time definitions and hour limits",
+    "disposition": "unresolved",
+    "summary": "The final Spanish clause concerns what counts as working hours or time; English instead names minimum hours and a maximum workweek. An earlier English phrase already mentions what working hours are, and the federal-law reference is broad. No separate incorporated rule has been established."
+  },
+  {
+    "id": "act180-9a-neglect",
+    "lawId": "act-180-1998",
+    "section": "Original Section 9(a)",
+    "title": "Neglect of compliance and reticence",
+    "disposition": "unresolved",
+    "summary": "Spanish names neglect of compliance; English says a person is reticent in complying. Both versions also penalize anyone who violates the provision, likely covering negligent failures, so a distinct misdemeanor boundary has not been shown."
+  },
+  {
+    "id": "act180-13b-quasi-legislative",
+    "lawId": "act-180-1998",
+    "section": "Original Section 13(b)",
+    "title": "Quasi-legislative powers and quasi-legal powers",
+    "disposition": "unresolved",
+    "summary": "Spanish transfers quasi-legislative powers; the operative English clause says quasi-legal powers. The English title and motives correctly identify quasi-legislative authority, and no delegated power has been shown to fall outside the transfer."
+  },
+  {
+    "id": "act180-17c-daily-overtime",
+    "lawId": "act-180-1998",
+    "section": "Original Section 17(c)",
+    "title": "Daily overtime qualifier omitted",
+    "disposition": "unresolved",
+    "summary": "Spanish identifies premium compensation for daily overtime, while English says overtime without “daily.” Both tie the preserved benefit to preexisting mandatory decrees, which have not been reviewed to establish a broader English entitlement."
+  },
+  {
+    "id": "act427-8-working-mothers",
+    "lawId": "act-427-2000",
+    "section": "Original Section 8",
+    "title": "Working mothers and nursing mothers",
+    "disposition": "unresolved",
+    "summary": "Spanish guarantees the breastfeeding or milk-expression break to a nursing mother who requests it; English Section 8 says all working mothers who request it. The Act defines nursing mother, describes a specifically lactation-related break, requires supporting certification, and uses the narrower term in Section 10. The review has not identified a person treated differently after those provisions are read together."
+  },
+  {
+    "id": "act427-10-salary-base",
+    "lawId": "act-427-2000",
+    "section": "Original Section 10",
+    "title": "Salary earned and salary paid in the possible fine",
+    "disposition": "unresolved",
+    "summary": "Spanish refers to three times the salary the employee earns for each denied day; English says salary paid. Withheld pay could yield a lower literal English reference amount, but “salary paid for each day” may mean the daily wage rate, and both versions leave the fine discretionary and tied to harm. Without a supported distinct calculation or application, this remains a screening note rather than a published impact finding."
+  },
+  {
+    "id": "act1-1031-b11-baseline",
+    "lawId": "act-1-2011",
+    "section": "Original Section 1031.01(b)(11)",
+    "title": "Original paragraph (11) already covers annuities",
+    "disposition": "excluded",
+    "summary": "Both original 2011 languages contain paragraph (b)(11) for annuities. Spanish then makes IVU-Loto prizes separate (b)(12), while English nests them at (b)(11)(A)(vi). Act 4 of 2017 later labels a new severance exclusion (11); intervening Code amendments were not reconstructed, so this original paragraph is not treated as the direct bilingual pair for that later addition."
+  },
+  {
+    "id": "act1-1032-premium-component",
+    "lawId": "act-1-2011",
+    "section": "Original Section 1032.06(d)(3), Qualified Benefits",
+    "title": "Taxable premium portion and group life insurance",
+    "disposition": "unresolved",
+    "summary": "Spanish identifies the otherwise taxable portion of a group-life insurance premium; English names group term life insurance. The definition’s cost/value language and express cross-reference to the premium tax rule likely narrow the English to the same component. Both originals also duplicate the subsection’s (3) number, so the paragraph is identified by its heading. No distinct tax treatment is established."
+  },
+  {
+    "id": "act1-1062-g-original-alignment",
+    "lawId": "act-1-2011",
+    "section": "Original Section 1062.01(a)(1)(G)",
+    "title": "Original severance withholding clause aligns",
+    "disposition": "excluded",
+    "summary": "The targeted original Spanish and English clauses both exclude specified Act 80 indemnity or employer–employee severance pay from the definition of wages for withholding. This does not resolve the separate wording question raised by Act 4’s 2017 amendment to the clause."
   }
 ]
