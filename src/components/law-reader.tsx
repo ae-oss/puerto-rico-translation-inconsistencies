@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { ActTextPage, Finding, Law, ReviewNote, TextPart } from "@/lib/types";
 
 type Props = { law: Law; laws: Law[]; findings: Finding[]; reviewNotes: ReviewNote[]; pages: ActTextPage[] };
@@ -21,6 +21,7 @@ export function LawReader({ law, laws, findings, reviewNotes, pages }: Props) {
   const [order, setOrder] = useState<Order>("text");
   const [impact, setImpact] = useState("all");
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const legislationMenu = useRef<HTMLDetailsElement>(null);
   const englishSource = law.sources.find((source) => source.language === "en")?.url;
   const findingPage = useMemo(() => pages.reduce<Record<string, number>>((locations, page) => {
     for (const id of page.findingIds) locations[id] ??= page.page;
@@ -44,6 +45,26 @@ export function LawReader({ law, laws, findings, reviewNotes, pages }: Props) {
     window.addEventListener("hashchange", readHash);
     return () => window.removeEventListener("hashchange", readHash);
   }, [findings]);
+
+  useEffect(() => {
+    function closeOnOutsideClick(event: PointerEvent) {
+      if (legislationMenu.current?.open && !legislationMenu.current.contains(event.target as Node)) {
+        legislationMenu.current.open = false;
+      }
+    }
+    function closeOnEscape(event: KeyboardEvent) {
+      if (event.key === "Escape" && legislationMenu.current?.open) {
+        legislationMenu.current.open = false;
+        legislationMenu.current.querySelector("summary")?.focus();
+      }
+    }
+    document.addEventListener("pointerdown", closeOnOutsideClick);
+    document.addEventListener("keydown", closeOnEscape);
+    return () => {
+      document.removeEventListener("pointerdown", closeOnOutsideClick);
+      document.removeEventListener("keydown", closeOnEscape);
+    };
+  }, []);
 
   function selectFinding(id: string | null) {
     setSelectedId(id);
@@ -71,7 +92,7 @@ export function LawReader({ law, laws, findings, reviewNotes, pages }: Props) {
   return <div className="bg-[#f5f5f3]">
     <div className="border-b border-[#dedfdd] px-4 py-4 sm:px-7">
       <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
-        <details className="relative z-10"><summary className="list-none cursor-pointer rounded border border-[#cdd0d0] bg-white px-4 py-2 text-[13px] font-semibold marker:hidden">Change legislation <span aria-hidden="true" className="ml-3">⌄</span></summary><div className="absolute left-0 top-11 min-w-[285px] border border-[#d8dada] bg-white p-2 shadow-lg">{laws.map((item) => <Link key={item.id} href={`/laws/${item.id}/`} className="block rounded px-3 py-2 text-[13px] hover:bg-[#f2f4f5]">{item.number} — {item.title}</Link>)}</div></details>
+        <details ref={legislationMenu} className="relative z-10"><summary className="inline-flex list-none cursor-pointer items-center gap-1.5 rounded border border-[#cdd0d0] bg-white px-3 py-2 text-[13px] font-semibold marker:hidden"><svg aria-hidden="true" viewBox="0 0 12 12" className="h-3 w-3 shrink-0 fill-none stroke-current stroke-[1.5]"><path d="m2 4 4 4 4-4" /></svg>Change legislation</summary><div className="absolute left-0 top-11 min-w-[285px] border border-[#d8dada] bg-white p-2 shadow-lg">{laws.map((item) => <Link key={item.id} href={`/laws/${item.id}/`} className="block rounded px-3 py-2 text-[13px] hover:bg-[#f2f4f5]">{item.number} — {item.title}</Link>)}</div></details>
         <div className="min-w-0 flex-1"><h1 className="font-serif text-[20px] leading-[1.25] sm:text-[22px]">{law.number} — {law.title}</h1><p className="mt-1 text-[12px] text-[#687075]">{law.edition} · {readableDate(law.enactedOn)} <span className="mx-2 text-[#2b7255]">●</span>{law.coverage.label}</p></div>
       </div>
     </div>
