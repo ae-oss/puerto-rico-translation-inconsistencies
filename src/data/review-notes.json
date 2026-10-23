@@ -1,0 +1,74 @@
+[
+  {
+    "id": "act4-2-3b-business-form",
+    "lawId": "act-4-2017",
+    "section": "Section 2.3(b)",
+    "title": "Own business and sole proprietorship",
+    "disposition": "unresolved",
+    "summary": "The English rendering may narrow a reference to a worker's own business to a sole proprietorship. The legal and tax context has not yet established a different operative classification."
+  },
+  {
+    "id": "act4-2-13-federal-rules",
+    "lawId": "act-4-2017",
+    "section": "Section 2.13",
+    "title": "Federal rules and regulations",
+    "disposition": "unresolved",
+    "summary": "A possible difference between federal rules and federal regulations needs more contextual review before it can be rated as a change in legal meaning."
+  },
+  {
+    "id": "act4-3-23-bonus-period",
+    "lawId": "act-4-2017",
+    "section": "Section 3.23",
+    "title": "“Twelve-year” bonus period",
+    "disposition": "excluded",
+    "summary": "The English twice says twelve years where Spanish says twelve months. The same English sentences expressly define an October-to-September year, so the review found no supported change to the operative measurement period."
+  },
+  {
+    "id": "act4-3-28-severance-agreement",
+    "lawId": "act-4-2017",
+    "section": "Section 3.28",
+    "title": "Severance agreement and settlement agreement",
+    "disposition": "unresolved",
+    "summary": "The tax-withholding clause uses different agreement terms. Whether “settlement” actually excludes an agreement covered by the Spanish wording requires a closer tax-law and period-specific review."
+  },
+  {
+    "id": "act4-4-10-dismissal-notice",
+    "lawId": "act-4-2017",
+    "section": "Section 4.10",
+    "title": "Notice of intended dismissal",
+    "disposition": "unresolved",
+    "summary": "Spanish expressly refers to notice of an intention to dismiss before severance can be settled. English says notice of discharge, which may also mean advance notice of an impending dismissal. The review could not establish a different timing rule."
+  },
+  {
+    "id": "act4-4-14d-contract-presumption",
+    "lawId": "act-4-2017",
+    "section": "Section 4.14(d)",
+    "title": "Fixed-term contract presumption",
+    "disposition": "unresolved",
+    "summary": "Spanish says a qualifying fixed-term contract is presumed valid; English says it shall be considered valid. Nearby language permits a challenge based on renewal practices, so a conclusive English reading remains unproved."
+  },
+  {
+    "id": "act4-preamble-unemployment",
+    "lawId": "act-4-2017",
+    "section": "Statement of motives",
+    "title": "Unemployment increase and hiring date",
+    "disposition": "excluded",
+    "summary": "The English preamble omits a Spanish post-Act-hire qualifier in its discussion of unemployment increases. The operative unemployment provisions do not support the broader legal-rights change suggested by that omission."
+  },
+  {
+    "id": "act4-preamble-damages",
+    "lawId": "act-4-2017",
+    "section": "Statement of motives",
+    "title": "Punitive and compensatory damages",
+    "disposition": "excluded",
+    "summary": "A preamble sentence changes punitive damages to compensatory damages in English. Nearby English text and the operative provision still address punitive damages, so the review found no supported change in the remedy."
+  },
+  {
+    "id": "act80-5-vejámenes",
+    "lawId": "act-80-1976",
+    "section": "Original Section 5",
+    "title": "Abusive indignities and derogatory criticism",
+    "disposition": "unresolved",
+    "summary": "Spanish vejámenes is broader than the English “derogatory criticisms.” The examples of conduct causing a worker to resign are nonexclusive, and English still covers humiliations through acts or words. A different eligibility rule has not been established."
+  }
+]
