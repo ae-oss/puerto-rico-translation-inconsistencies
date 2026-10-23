@@ -20,6 +20,7 @@ export type Law = {
   description: string;
   enactedOn: string;
   edition: string;
+  textScope?: "full" | "selected";
   status: "awaiting-review" | "in-review" | "reviewed";
   coverage: {
     label: string;
