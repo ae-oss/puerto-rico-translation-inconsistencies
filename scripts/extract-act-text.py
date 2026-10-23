@@ -1,7 +1,7 @@
 """Extract page-ordered official English text for the public reader.
 
 Usage: python scripts/extract-act-text.py
-The two source PDFs live in ignored tmp/pdfs/ and are linked in laws.json.
+The source PDFs live in ignored tmp/pdfs/ and are linked in laws.json.
 """
 
 import json
@@ -99,8 +99,29 @@ with pdfplumber.open(ROOT / "tmp/pdfs/act4-english.pdf") as pdf:
     act4 = [{"page": i + 1, "text": clean_act4(page.extract_text() or "")}
             for i, page in enumerate(pdf.pages[:67])]
 act80 = extract_act80(ROOT / "tmp/pdfs/act80-english.pdf")
+with pdfplumber.open(ROOT / "tmp/pdfs/act180-english.pdf") as pdf:
+    # PDF page 18 is the translator's certification, not legislation.
+    act180 = [{"page": i + 1, "text": clean_act4(page.extract_text() or "")}
+              for i, page in enumerate(pdf.pages[:17])]
+with pdfplumber.open(ROOT / "tmp/pdfs/act427-english.pdf") as pdf:
+    # PDF page 6 is a later translator's certification, not legislation.
+    act427 = [{"page": i + 1, "text": clean_act4(page.extract_text() or "")}
+              for i, page in enumerate(pdf.pages[:5])]
+with pdfplumber.open(ROOT / "tmp/pdfs/act1-english.pdf") as pdf:
+    # Targeted, noncontiguous original-Code context only; never label this full text.
+    act1_pages = [81, 82, 83, 84, 85, 86, 123, 124, 430, 431]
+    act1 = [{"page": number, "text": clean_act4(pdf.pages[number - 1].extract_text() or "")}
+            for number in act1_pages]
+act100 = json.loads((ROOT / "scripts/transcriptions/act100-english.json").read_text())
 attach_findings("act-4-2017", act4)
 attach_findings("act-80-1976", act80)
-output = {"act-4-2017": act4, "act-80-1976": act80}
+attach_findings("act-180-1998", act180)
+attach_findings("act-100-1959", act100)
+attach_findings("act-427-2000", act427)
+attach_findings("act-1-2011", act1)
+output = {"act-4-2017": act4, "act-80-1976": act80, "act-180-1998": act180,
+          "act-100-1959": act100, "act-427-2000": act427, "act-1-2011": act1}
 (ROOT / "src/data/act-texts.json").write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n")
-print(f"Saved {len(act4)} Act 4 pages and {len(act80)} Act 80 archive spreads")
+print(f"Saved {len(act4)} Act 4 pages, {len(act80)} Act 80 archive spreads, "
+      f"{len(act180)} Act 180 pages, {len(act100)} Act 100 archive spreads, "
+      f"{len(act427)} Act 427 pages, and {len(act1)} selected Act 1 pages")
