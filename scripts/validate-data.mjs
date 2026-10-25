@@ -73,5 +73,5 @@ for (const law of laws) {
   for (const finding of findings.filter((item) => item.lawId === law.id)) check(linked.has(finding.id), `Finding ${finding.id}: no matching page in English text`);
 }
 
-if (errors.length) { for (const error of errors) console.error(`â€¢ ${error}`); process.exit(1); }
+if (errors.length) { for (const error of errors) console.error(`• ${error}`); process.exit(1); }
 console.log(`Validated ${laws.length} law(s), ${findings.length} legislative finding(s), ${federalGuidance.length} federal-guidance finding(s), and ${reviewNotes.length} screening note(s); demonstration data remains separate.`);
