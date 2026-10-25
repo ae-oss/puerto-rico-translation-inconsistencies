@@ -1,0 +1,120 @@
+[
+  {
+    "id": "fmla-faq-01-seven-day-cure",
+    "lawId": null,
+    "published": true,
+    "section": "DOL FMLA FAQ · Certification",
+    "title": "Seven-day cure period assigned to the wrong person",
+    "impact": "limited",
+    "status": "reviewed",
+    "confidence": "high",
+    "spanish": [
+      { "text": "debe otorgarle al ", "highlight": false },
+      { "text": "empleador", "highlight": true },
+      { "text": " al menos siete días naturales para remediar la deficiencia", "highlight": false }
+    ],
+    "officialEnglish": [
+      { "text": "must allow the ", "highlight": false },
+      { "text": "employee", "highlight": true },
+      { "text": " at least seven calendar days to cure the deficiency", "highlight": false }
+    ],
+    "independentEnglish": [
+      { "text": "must give the ", "highlight": false },
+      { "text": "employer", "highlight": true },
+      { "text": " at least seven calendar days to correct the deficiency", "highlight": false }
+    ],
+    "meaning": "The Spanish FAQ gives the seven-day period to the employer. The matched English question and 29 CFR § 825.305(c) give the employee at least seven calendar days to correct an incomplete or insufficient certification, subject to the rule’s impracticability exception.",
+    "potentialConsequence": "A worker given only two days to correct a clinician’s incomplete certification might fail to insist on the seven-day minimum. This is a hypothetical decision path; no worker’s reliance or denial of leave was found.",
+    "impactReason": "Limited potential impact. The same Spanish answer first says the employee must have a reasonable opportunity to cure, and the current Spanish WH-382 form correctly places the action and deadline on the employee. Those corrections reduce the chance of consequential reliance on the wrong word.",
+    "initialAssessment": "The investigators matched the certification question in the current English and Spanish WHD FAQ pages, checked the actor against § 825.305(c), and compared the current bilingual WH-382 forms. The question is present on both live pages; neither page shows a prose revision date.",
+    "criticalReview": "The independent reviewer reopened both FAQ questions in Chrome on 26 October 2026 and confirmed the actor switch. The surrounding Spanish text makes this look like an internally contradicted wording error. The legal rule is clear; the actual effect on any reader is unproven.",
+    "downstream": {
+      "status": "none-demonstrated",
+      "summary": "No documented reliance, denial, or other downstream effect was found. The FAQ does not change the governing FMLA rule.",
+      "citations": []
+    },
+    "sources": [
+      { "label": "DOL Spanish FMLA FAQ · incomplete certification question", "url": "https://www.dol.gov/agencies/whd/fmla/faq-spanish" },
+      { "label": "DOL English FMLA FAQ · matched question", "url": "https://www.dol.gov/agencies/whd/fmla/faq" },
+      { "label": "29 CFR § 825.305(c) · certification cure", "url": "https://www.ecfr.gov/current/title-29/section-825.305" },
+      { "label": "DOL Spanish WH-382 · correct optional form", "url": "https://www.dol.gov/sites/dolgov/files/WHD/legacy/files/WH-382-es.pdf", "note": "Section II, PDF page 2; revised June 2020." }
+    ]
+  },
+  {
+    "id": "fmla-faq-02-known-leave-amount",
+    "lawId": null,
+    "published": true,
+    "section": "DOL FMLA FAQ · Employer notice",
+    "title": "Known leave amount condition reversed",
+    "impact": "limited",
+    "status": "reviewed",
+    "confidence": "high",
+    "spanish": [
+      { "text": "si ", "highlight": false },
+      { "text": "no se conoce", "highlight": true },
+      { "text": " el periodo de licencia", "highlight": false }
+    ],
+    "officialEnglish": [
+      { "text": "if the amount of leave needed ", "highlight": false },
+      { "text": "is known", "highlight": true }
+    ],
+    "independentEnglish": [
+      { "text": "if the period of leave ", "highlight": false },
+      { "text": "is not known", "highlight": true }
+    ],
+    "meaning": "The Spanish FAQ reverses the condition for stating the number of hours, days, or weeks counted against a worker’s FMLA entitlement in the initial designation notice. The matched English question and 29 CFR § 825.300(d)(6) require that number when it is known; a separate on-request accounting applies when it cannot initially be stated.",
+    "potentialConsequence": "For a scheduled three-week leave, a worker might fail to seek a quantified deduction omitted from the designation notice, making remaining leave harder to plan. No actual defective notice or reliance was found.",
+    "impactReason": "Limited potential impact. The error affects notice content rather than the entitlement itself. The next Spanish FAQ sentence describes the unknown-amount procedure, and the current Spanish WH-382 form distinguishes the two situations correctly.",
+    "initialAssessment": "The investigators compared the matching employer-notice questions, the current designation-notice regulation, and the bilingual WH-382 form. The Spanish clause has an added negation at the exact point where the English imposes the initial quantification duty.",
+    "criticalReview": "The independent reviewer confirmed the reversal on both live FAQ pages on 26 October 2026. Nearby Spanish wording makes the paragraph inconsistent and may alert a careful reader. It does not make the reversed clause accurate. No demonstrated practical effect was identified.",
+    "downstream": {
+      "status": "none-demonstrated",
+      "summary": "No actual omitted notice, worker reliance, or changed legal outcome was traced to this FAQ wording.",
+      "citations": []
+    },
+    "sources": [
+      { "label": "DOL Spanish FMLA FAQ · designation notice question", "url": "https://www.dol.gov/agencies/whd/fmla/faq-spanish" },
+      { "label": "DOL English FMLA FAQ · matched question", "url": "https://www.dol.gov/agencies/whd/fmla/faq" },
+      { "label": "29 CFR § 825.300(d)(6) · designation notice", "url": "https://www.ecfr.gov/current/title-29/section-825.300" },
+      { "label": "DOL Spanish WH-382 · correct optional form", "url": "https://www.dol.gov/sites/dolgov/files/WHD/legacy/files/WH-382-es.pdf", "note": "Section III, PDF page 2; revised June 2020." }
+    ]
+  },
+  {
+    "id": "fmla-faq-03-certification-clock",
+    "lawId": null,
+    "published": true,
+    "section": "DOL FMLA FAQ · Military-family leave",
+    "title": "Certification period starts from the wrong request",
+    "impact": "major",
+    "status": "reviewed",
+    "confidence": "high",
+    "spanish": [
+      { "text": "al menos 15 días naturales a partir de la solicitud del ", "highlight": false },
+      { "text": "empleado", "highlight": true }
+    ],
+    "officialEnglish": [
+      { "text": "at least 15 calendar days after the ", "highlight": false },
+      { "text": "employer’s request", "highlight": true }
+    ],
+    "independentEnglish": [
+      { "text": "at least 15 calendar days from the ", "highlight": false },
+      { "text": "employee’s request", "highlight": true }
+    ],
+    "meaning": "For qualifying-exigency certification, the Spanish FAQ starts the minimum 15-day period at the employee’s request for leave. The matched English question and 29 CFR § 825.305(a)–(b) start it after the employer requests certification.",
+    "potentialConsequence": "Hypothetically, a worker requests leave on day 1 and the employer requests certification on day 5. The Spanish wording suggests a deadline four days earlier than the regulatory minimum. An early deadline could affect protected leave; no actual early deadline, denial, or reliance was found.",
+    "impactReason": "Major potential impact because the changed start event can materially advance an important certification deadline. This rating describes possible severity under a delayed employer request. The requests can coincide, and the employer’s actual notice, the good-faith impracticability exception, and the correct Spanish WH-384 form can prevent the hypothetical harm.",
+    "initialAssessment": "The FAQ scan investigator independently identified the changed actor and initially rated it Limited because adjoining guidance and matched forms mitigate reliance. Source and related-document investigators confirmed the matched question and the regulation’s start event. The current bilingual WH-384 pair is revised June 2020 and states the correct employer-request sequence.",
+    "criticalReview": "The independent reviewer reopened the live English and Spanish questions on 26 October 2026 and confirmed the difference. The reviewer rated Major potential under the project’s important-deadline criterion; the coordinator adopted that rating while preserving the investigators’ contrary assessment and the conditional nature of any consequence.",
+    "downstream": {
+      "status": "none-demonstrated",
+      "summary": "No documented worker reliance, premature certification deadline, denial, or other legal effect was found. The governing regulation remains unchanged.",
+      "citations": []
+    },
+    "sources": [
+      { "label": "DOL Spanish FMLA FAQ · qualifying-exigency certification question", "url": "https://www.dol.gov/agencies/whd/fmla/faq-spanish" },
+      { "label": "DOL English FMLA FAQ · matched question", "url": "https://www.dol.gov/agencies/whd/fmla/faq" },
+      { "label": "29 CFR § 825.305(a)–(b) · certification timing", "url": "https://www.ecfr.gov/current/title-29/section-825.305" },
+      { "label": "DOL Spanish WH-384 · correct optional form", "url": "https://www.dol.gov/sites/dolgov/files/WHD/legacy/files/WH-384-es.pdf", "note": "Section I, PDF page 1; revised June 2020." }
+    ]
+  }
+]
