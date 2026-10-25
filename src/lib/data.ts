@@ -1,5 +1,6 @@
 import lawsJson from "@/data/laws.json";
 import findingsJson from "@/data/findings.json";
+import federalGuidanceJson from "@/data/federal-guidance.json";
 import demoJson from "@/data/demo.json";
 import reviewNotesJson from "@/data/review-notes.json";
 import actTextsJson from "@/data/act-texts.json";
@@ -7,6 +8,7 @@ import type { ActTextPage, Finding, Law, ReviewNote } from "@/lib/types";
 
 export const laws = lawsJson as Law[];
 export const findings = findingsJson as Finding[];
+export const federalGuidance = federalGuidanceJson as Finding[];
 export const demoFinding = demoJson as Finding;
 export const reviewNotes = reviewNotesJson as ReviewNote[];
 export const actTexts = actTextsJson as Record<string, ActTextPage[]>;
