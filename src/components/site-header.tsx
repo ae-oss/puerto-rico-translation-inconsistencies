@@ -7,6 +7,7 @@ export function SiteNav({ home = false }: { home?: boolean }) {
   return (
     <nav aria-label="Main navigation" className="flex items-center gap-2 text-[13px] text-[#3d444a]">
       {!home && <Link className="nav-link" href="/">Legislation</Link>}
+      <Link className="nav-link" href="/federal-guidance/">Federal guidance</Link>
       <Link className="nav-link" href="/method/">Method</Link>
       <Link className="nav-link" href="/statistics/">Statistics</Link>
     </nav>
