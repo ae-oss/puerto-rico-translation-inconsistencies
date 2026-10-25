@@ -12,8 +12,8 @@ export default function Home() {
         <SiteNav home />
       </div>
       <p className="mt-2 text-[14px] leading-[1.3] text-[#5c6268]">Explore differences in meaning between the original Spanish text and official English translations of Puerto Rico legislation.</p>
-      <p className="mt-1 text-[12px] leading-[1.3] text-[#697078]">{laws.length} acts Â· {published.length} published findings Â· {published.filter((f) => f.impact === "major").length} major potential Â· {published.filter((f) => f.impact === "limited").length} limited potential</p>
-      <p className="mt-3 text-[12px] leading-5 text-[#697078]"><Link href="/federal-guidance/" className="font-semibold text-[#286975] underline underline-offset-2">Federal guidance â†’</Link> {federalGuidance.length} separately reviewed DOL FMLA FAQ findings relevant to Puerto Rico.</p>
+      <p className="mt-1 text-[12px] leading-[1.3] text-[#697078]">{laws.length} acts · {published.length} published findings · {published.filter((f) => f.impact === "major").length} major potential · {published.filter((f) => f.impact === "limited").length} limited potential</p>
+      <p className="mt-3 text-[12px] leading-5 text-[#697078]"><Link href="/federal-guidance/" className="font-semibold text-[#286975] underline underline-offset-2">Federal guidance →</Link> {federalGuidance.length} separately reviewed DOL FMLA FAQ findings relevant to Puerto Rico.</p>
       <LawList laws={laws} findings={published} />
     </div>
   );
