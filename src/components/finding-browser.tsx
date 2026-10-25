@@ -40,7 +40,7 @@ export function FindingBrowser({ findings, guidance = false }: { findings: Findi
         <div className="space-y-2" aria-label="Finding list">{filtered.map((finding) => <button key={finding.id} onClick={() => selectFinding(finding.id)} aria-pressed={selected?.id === finding.id} className={`w-full rounded-[2px] border p-4 text-left ${selected?.id === finding.id ? "border-[#9db9ba] bg-[#eaf2f0]" : "border-[#e1e2da] bg-white hover:border-[#aac2c0]"}`}><span className="block text-[11px] font-semibold uppercase tracking-[.1em] text-[#6c8080]">{finding.section}</span><strong className="my-2 block font-serif text-[18px] leading-snug text-[#213d41]">{finding.title}</strong><ImpactBadge impact={finding.impact} /></button>)}</div>
         {selected && <FindingDetail finding={selected} guidance={guidance} />}
       </div> : <div className="rounded-[3px] border border-dashed border-[#c9d5d1] bg-[#fbfcfa] px-6 py-12 text-center">
-        <div className="mx-auto mb-4 flex h-10 w-10 items-center justify-center rounded-full border border-[#bdd0cc] font-serif text-[25px] text-[#558181]">â€”</div>
+        <div className="mx-auto mb-4 flex h-10 w-10 items-center justify-center rounded-full border border-[#bdd0cc] font-serif text-[25px] text-[#558181]">—</div>
         <h3 className="font-serif text-[24px] text-[#284449]">{findings.length ? "No findings match" : "No verified findings yet"}</h3>
         <p className="mx-auto mt-2 max-w-[48ch] text-[13px] leading-6 text-[#6a7a78]">{findings.length ? "Try another search or filter." : "Findings will appear here when their source passages, assessment, and review record are ready for publication."}</p>
       </div>}
